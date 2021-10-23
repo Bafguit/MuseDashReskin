@@ -1,0 +1,377 @@
+
+1_worker_main_show.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fool_KSF
+  rotate: false
+  xy: 183, 5
+  size: 149, 110
+  orig: 149, 110
+  offset: 0, 0
+  index: -1
+fool_arm_L1
+  rotate: true
+  xy: 1117, 7
+  size: 59, 138
+  orig: 59, 138
+  offset: 0, 0
+  index: -1
+fool_arm_L2
+  rotate: true
+  xy: 544, 7
+  size: 158, 147
+  orig: 158, 147
+  offset: 0, 0
+  index: -1
+fool_arm_R1
+  rotate: true
+  xy: 712, 174
+  size: 118, 94
+  orig: 118, 95
+  offset: 0, 1
+  index: -1
+fool_arm_R2
+  rotate: false
+  xy: 958, 32
+  size: 70, 158
+  orig: 70, 158
+  offset: 0, 0
+  index: -1
+fool_bag
+  rotate: false
+  xy: 655, 171
+  size: 55, 121
+  orig: 55, 121
+  offset: 0, 0
+  index: -1
+fool_bird
+  rotate: false
+  xy: 1335, 23
+  size: 65, 71
+  orig: 65, 71
+  offset: 0, 0
+  index: -1
+fool_body
+  rotate: false
+  xy: 2, 117
+  size: 206, 393
+  orig: 206, 397
+  offset: 0, 4
+  index: -1
+fool_ear_L
+  rotate: false
+  xy: 1042, 211
+  size: 62, 81
+  orig: 62, 81
+  offset: 0, 0
+  index: -1
+fool_ear_R
+  rotate: true
+  xy: 1165, 233
+  size: 78, 67
+  orig: 78, 67
+  offset: 0, 0
+  index: -1
+fool_eye_L
+  rotate: true
+  xy: 531, 36
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+fool_eye_R
+  rotate: false
+  xy: 531, 27
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+fool_eyebrow_L
+  rotate: false
+  xy: 808, 175
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+fool_eyebrow_L_anger
+  rotate: true
+  xy: 885, 78
+  size: 47, 21
+  orig: 47, 21
+  offset: 0, 0
+  index: -1
+fool_eyebrow_R
+  rotate: true
+  xy: 531, 47
+  size: 32, 10
+  orig: 32, 10
+  offset: 0, 0
+  index: -1
+fool_eyebrow_R_anger
+  rotate: true
+  xy: 885, 127
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+fool_eyewhite_LA
+  rotate: false
+  xy: 1030, 5
+  size: 33, 40
+  orig: 33, 40
+  offset: 0, 0
+  index: -1
+fool_eyewhite_RA
+  rotate: false
+  xy: 1328, 475
+  size: 35, 35
+  orig: 35, 36
+  offset: 0, 1
+  index: -1
+fool_face_anger
+  rotate: true
+  xy: 808, 191
+  size: 101, 60
+  orig: 101, 60
+  offset: 0, 0
+  index: -1
+fool_face_error
+  rotate: true
+  xy: 210, 118
+  size: 37, 56
+  orig: 37, 56
+  offset: 0, 0
+  index: -1
+fool_face_sily
+  rotate: true
+  xy: 1271, 313
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+fool_face_water
+  rotate: false
+  xy: 1257, 7
+  size: 76, 59
+  orig: 76, 59
+  offset: 0, 0
+  index: -1
+fool_finger_L
+  rotate: false
+  xy: 1327, 316
+  size: 69, 55
+  orig: 69, 55
+  offset: 0, 0
+  index: -1
+fool_finger_R
+  rotate: true
+  xy: 1234, 236
+  size: 75, 68
+  orig: 75, 68
+  offset: 0, 0
+  index: -1
+fool_hair_A
+  rotate: false
+  xy: 2, 2
+  size: 91, 113
+  orig: 91, 113
+  offset: 0, 0
+  index: -1
+fool_hair_B
+  rotate: false
+  xy: 133, 4
+  size: 48, 111
+  orig: 48, 112
+  offset: 0, 0
+  index: -1
+fool_hair_C
+  rotate: false
+  xy: 916, 13
+  size: 40, 177
+  orig: 40, 177
+  offset: 0, 0
+  index: -1
+fool_hairback
+  rotate: false
+  xy: 334, 2
+  size: 195, 153
+  orig: 195, 153
+  offset: 0, 0
+  index: -1
+fool_hairred
+  rotate: true
+  xy: 1285, 96
+  size: 138, 53
+  orig: 138, 53
+  offset: 0, 0
+  index: -1
+fool_hammer
+  rotate: false
+  xy: 870, 192
+  size: 87, 100
+  orig: 87, 100
+  offset: 0, 0
+  index: -1
+fool_hand_L
+  rotate: false
+  xy: 513, 167
+  size: 75, 125
+  orig: 75, 125
+  offset: 0, 0
+  index: -1
+fool_hand_R
+  rotate: false
+  xy: 1106, 212
+  size: 57, 80
+  orig: 57, 80
+  offset: 0, 0
+  index: -1
+fool_hat
+  rotate: false
+  xy: 1078, 68
+  size: 205, 141
+  orig: 205, 142
+  offset: 0, 1
+  index: -1
+fool_head
+  rotate: false
+  xy: 1128, 313
+  size: 141, 197
+  orig: 141, 197
+  offset: 0, 0
+  index: -1
+fool_horsetail
+  rotate: false
+  xy: 693, 5
+  size: 190, 164
+  orig: 190, 164
+  offset: 0, 0
+  index: -1
+fool_leg_L
+  rotate: false
+  xy: 210, 157
+  size: 163, 353
+  orig: 163, 353
+  offset: 0, 0
+  index: -1
+fool_leg_R
+  rotate: false
+  xy: 375, 163
+  size: 136, 347
+  orig: 136, 349
+  offset: 0, 1
+  index: -1
+fool_logo
+  rotate: true
+  xy: 590, 167
+  size: 125, 63
+  orig: 125, 63
+  offset: 0, 0
+  index: -1
+fool_mouth_A
+  rotate: false
+  xy: 307, 120
+  size: 21, 14
+  orig: 21, 15
+  offset: 0, 1
+  index: -1
+fool_mouth_cool
+  rotate: false
+  xy: 513, 158
+  size: 29, 7
+  orig: 29, 7
+  offset: 0, 0
+  index: -1
+fool_neck
+  rotate: false
+  xy: 1304, 241
+  size: 47, 70
+  orig: 47, 70
+  offset: 0, 0
+  index: -1
+fool_nest
+  rotate: false
+  xy: 959, 194
+  size: 81, 98
+  orig: 81, 98
+  offset: 0, 0
+  index: -1
+fool_oil
+  rotate: true
+  xy: 268, 136
+  size: 19, 64
+  orig: 21, 64
+  offset: 1, 0
+  index: -1
+fool_smoke
+  rotate: false
+  xy: 1065, 9
+  size: 50, 36
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+fool_sunglasses
+  rotate: true
+  xy: 1030, 47
+  size: 145, 46
+  orig: 145, 46
+  offset: 0, 0
+  index: -1
+fool_towel_L
+  rotate: false
+  xy: 95, 2
+  size: 36, 113
+  orig: 41, 113
+  offset: 4, 0
+  index: -1
+fool_towel_R
+  rotate: false
+  xy: 1271, 373
+  size: 55, 137
+  orig: 55, 141
+  offset: 0, 0
+  index: -1
+fool_water_2
+  rotate: false
+  xy: 531, 116
+  size: 11, 40
+  orig: 11, 40
+  offset: 0, 0
+  index: -1
+fool_water_3
+  rotate: true
+  xy: 842, 176
+  size: 13, 39
+  orig: 13, 39
+  offset: 0, 0
+  index: -1
+fool_water_5
+  rotate: false
+  xy: 531, 81
+  size: 11, 33
+  orig: 11, 33
+  offset: 0, 0
+  index: -1
+fool_water_6
+  rotate: true
+  xy: 883, 178
+  size: 12, 31
+  orig: 12, 31
+  offset: 0, 0
+  index: -1
+fool_water_7
+  rotate: true
+  xy: 268, 120
+  size: 14, 37
+  orig: 14, 37
+  offset: 0, 0
+  index: -1
+fool_wrench
+  rotate: false
+  xy: 513, 294
+  size: 613, 216
+  orig: 613, 216
+  offset: 0, 0
+  index: -1

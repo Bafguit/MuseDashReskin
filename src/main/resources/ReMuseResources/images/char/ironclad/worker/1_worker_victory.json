@@ -1,0 +1,308 @@
+{
+"skeleton": { "hash": "+F49ph5OZbEWNHsJcW9L8cnX4Dg", "spine": "3.8.75" },
+"bones": [
+	{ "name": "root", "x": -28.38, "y": 221.36, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "rin_X", "parent": "root", "x": 34.7, "y": 108.57 },
+	{ "name": "rin_Y", "parent": "rin_X" },
+	{ "name": "rin_body", "parent": "rin_Y", "length": 472.01, "rotation": 88.38, "x": 4.19, "y": 103.32 },
+	{ "name": "rin_body2", "parent": "rin_body", "length": 536.89, "rotation": -3.67, "x": 464.35, "y": 1.69 },
+	{ "name": "rin_neck", "parent": "rin_body2", "length": 142.65, "rotation": 5.9, "x": 524.07, "y": 14.85 },
+	{ "name": "rin_arm_R_X", "parent": "rin_body2", "x": 504.17, "y": 136.87 },
+	{ "name": "rin_arm_R_Y", "parent": "rin_arm_R_X" },
+	{ "name": "rin_arm_R", "parent": "rin_arm_R_Y", "length": 333.5, "rotation": 109.59, "x": -13.79, "y": 23.29 },
+	{ "name": "rin_arm_R3", "parent": "rin_arm_R", "length": 373.69, "rotation": -7.18, "x": 346.61, "y": -0.69 },
+	{ "name": "rin_hand_R", "parent": "rin_arm_R3", "x": 339.69, "y": -73.04 },
+	{ "name": "rin_head", "parent": "rin_neck", "length": 455.41, "rotation": -0.32, "x": 137.06, "y": 1.82 },
+	{ "name": "rin_ear_L", "parent": "rin_head", "x": 217.64, "y": -264.55 },
+	{ "name": "rin_ear_R", "parent": "rin_head", "x": 183.3, "y": 226.06 },
+	{ "name": "rin_ear_L3", "parent": "rin_ear_L", "length": 82.96, "rotation": -103.53, "x": -3.62, "y": -10.67 },
+	{ "name": "rin_ear_R3", "parent": "rin_ear_R", "length": 106.07, "rotation": 111.39, "x": -4.67, "y": 16.65 },
+	{ "name": "rin_hat", "parent": "rin_head", "x": 604.73, "y": -35.39 },
+	{ "name": "rin_hat_logo", "parent": "rin_hat", "x": 83.22, "y": -8.35 },
+	{ "name": "rin_hairPonytail", "parent": "rin_head", "x": 761.25, "y": -171.8 },
+	{ "name": "rin_hairPonytail3", "parent": "rin_hairPonytail", "length": 287.4, "rotation": -123.75, "x": -17.85, "y": -25.97 },
+	{ "name": "rin_face_X", "parent": "rin_head", "x": 206.9, "y": 23.56 },
+	{ "name": "rin_face_Y", "parent": "rin_face_X" },
+	{ "name": "rin_eye_L", "parent": "rin_face_Y", "x": 59.91, "y": -136.69 },
+	{ "name": "rin_eye_R", "parent": "rin_face_Y", "x": 61.25, "y": 129.92 },
+	{ "name": "rin-mouth", "parent": "rin_face_Y", "x": -100.02, "y": 8.16 },
+	{ "name": "rin_eyebrow_L", "parent": "rin_face_Y", "x": 215.17, "y": -129.28 },
+	{ "name": "rin_eyebrow_R", "parent": "rin_face_Y", "x": 212.54, "y": 109.44 },
+	{ "name": "rin_arm_L_X", "parent": "rin_body2", "x": 497.73, "y": -314.04 },
+	{ "name": "rin_arm_L_Y", "parent": "rin_arm_L_X" },
+	{ "name": "rin_arm_L", "parent": "rin_arm_L_Y", "length": 445.17, "rotation": -165.11, "x": -29.84, "y": -9.34 },
+	{ "name": "rin_hand_L", "parent": "rin_arm_L", "length": 385.21, "rotation": -0.14, "x": 491.84, "y": 0.96 },
+	{ "name": "rin_hand_L2", "parent": "rin_hand_L", "length": 201.77, "rotation": 0.51, "x": 397.42, "y": 6.82 },
+	{ "name": "rin_hairback", "parent": "rin_head", "x": 759.06, "y": -0.84 },
+	{ "name": "rin_hair_1", "parent": "rin_head", "x": 562.53, "y": 27.62 },
+	{ "name": "rin_hair_2", "parent": "rin_head", "x": 578.28, "y": 101.16 },
+	{ "name": "rin_hair_4", "parent": "rin_hair_1", "length": 96.54, "rotation": -175.45, "x": -27.33, "y": 2.15 },
+	{ "name": "rin_hair_5", "parent": "rin_hair_2", "length": 89.45, "rotation": 155.8, "x": -27.11, "y": 14.37 },
+	{ "name": "rin_hairRed", "parent": "rin_head", "x": 505.97, "y": 63.59 },
+	{ "name": "rin_hairRed2", "parent": "rin_head", "length": 137.39, "rotation": 116.87, "x": 490.68, "y": 77.1 },
+	{ "name": "rin_bag", "parent": "rin_body", "x": 376.93, "y": 260.45 },
+	{ "name": "rin_hammer", "parent": "rin_bag", "length": 114.61, "rotation": 12.11, "x": 42.88, "y": 9.56 },
+	{ "name": "rin_nest", "parent": "rin_hat", "x": 112.14, "y": 179.84 },
+	{ "name": "rin_nest3", "parent": "rin_nest", "length": 75.76, "rotation": 28.77, "x": 14.76, "y": 8.34 },
+	{ "name": "rin_bird", "parent": "rin_nest", "x": 111.73, "y": 59.36 },
+	{ "name": "rin_bird3", "parent": "rin_bird", "length": 125.14, "rotation": 31.66, "x": 19, "y": 14.62 },
+	{ "name": "rin_collar_R", "parent": "rin_body2", "x": 550.27, "y": 113.03 },
+	{ "name": "rin_collar_L", "parent": "rin_body2", "x": 562.84, "y": -89.03 },
+	{ "name": "rin_happy_L", "parent": "root", "x": 877.39, "y": 1557.81 },
+	{ "name": "rin_happy_R", "parent": "root", "x": -563.85, "y": 2067.46 }
+],
+"slots": [
+	{ "name": "rin_hairPonytail", "bone": "rin_hairPonytail3", "attachment": "rin_hairPonytail" },
+	{ "name": "rin_happy_R", "bone": "rin_happy_R", "attachment": "rin_happy_R" },
+	{ "name": "rin_happy_L", "bone": "rin_happy_L", "attachment": "rin_happy_L" },
+	{ "name": "rin_arm_R", "bone": "rin_arm_R3", "attachment": "rin_arm_R" },
+	{ "name": "rin_hand_L", "bone": "rin_hand_L", "attachment": "rin_hand_L" },
+	{ "name": "rin_arm_L", "bone": "rin_arm_L", "attachment": "rin_arm_L" },
+	{ "name": "rin_body", "bone": "rin_body", "attachment": "rin_body" },
+	{ "name": "rin_collar_R", "bone": "rin_collar_R", "attachment": "rin_collar_R" },
+	{ "name": "rin_hammer", "bone": "rin_hammer", "attachment": "rin_hammer" },
+	{ "name": "rin_bag", "bone": "rin_bag", "attachment": "rin_bag" },
+	{ "name": "rin_neck", "bone": "rin_neck", "attachment": "rin_neck" },
+	{ "name": "rin_collar_L", "bone": "rin_collar_L", "attachment": "rin_collar_L" },
+	{ "name": "rin_hairback", "bone": "rin_hairback", "attachment": "rin_hairback" },
+	{ "name": "rin_ear_R", "bone": "rin_ear_R3", "attachment": "rin_ear_R" },
+	{ "name": "rin_head", "bone": "rin_head", "attachment": "rin_head" },
+	{ "name": "rin_eye_L", "bone": "rin_eye_L", "attachment": "rin_eye_L" },
+	{ "name": "rin_eye_R", "bone": "rin_eye_R", "attachment": "rin_eye_R" },
+	{ "name": "rin_eyebrow_L", "bone": "rin_eyebrow_L", "attachment": "rin_eyebrow_L" },
+	{ "name": "rin_eyebrow_R", "bone": "rin_eyebrow_R", "attachment": "rin_eyebrow_R" },
+	{ "name": "rin-mouth", "bone": "rin-mouth", "attachment": "rin-mouth" },
+	{ "name": "rin_hair_2", "bone": "rin_hair_5", "attachment": "rin_hair_2" },
+	{ "name": "rin_hair_1", "bone": "rin_hair_4", "attachment": "rin_hair_1" },
+	{ "name": "rin_bird", "bone": "rin_bird3", "attachment": "rin_bird" },
+	{ "name": "rin_nest", "bone": "rin_nest3", "attachment": "rin_nest" },
+	{ "name": "rin_hat", "bone": "rin_hat", "attachment": "rin_hat" },
+	{ "name": "rin_ear_L", "bone": "rin_ear_L3", "attachment": "rin_ear_L" },
+	{ "name": "rin_hat_logo", "bone": "rin_hat_logo", "attachment": "rin_hat_logo" },
+	{ "name": "rin_hairRed", "bone": "rin_hairRed2", "attachment": "rin_hairRed" },
+	{ "name": "rin_hand_R", "bone": "rin_hand_R", "attachment": "rin_hand_R" }
+],
+"animations": {
+	"standby": {
+		"bones": {
+			"rin_Y": {
+				"translate": [
+					{
+						"y": 52.19,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.8333,
+						"y": -173.58,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 1.6667, "y": 52.19 }
+				]
+			},
+			"rin_arm_R": {
+				"rotate": [
+					{ "angle": 13.45, "time": 0.0 },
+					{ "time": 0.8333, "angle": -37.4 },
+					{ "time": 1.6667, "angle": 13.45 }
+				]
+			},
+			"rin_hand_R": {
+				"rotate": [
+					{ "angle": -22.8, "time": 0.0 },
+					{ "time": 1, "angle": 30 },
+					{ "time": 1.2667, "angle": -174.72 },
+					{ "time": 1.6667, "angle": -22.8 }
+				],
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 1, "x": 184.02, "y": 59.5 },
+					{ "time": 1.2667, "x": -37.16, "y": 114.08 },
+					{ "time": 1.6667 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 0.8, "time": 0.0 },
+					{ "time": 1, "x": 1.7, "y": 1.7 },
+					{ "time": 1.2667, "x": -0.8, "y": -0.8 },
+					{ "time": 1.6667, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"rin_X": {
+				"translate": [
+					{ "x": 122.3, "time": 0.0 },
+					{ "time": 0.8333, "x": 138.07 },
+					{ "time": 1.6667, "x": 122.3 }
+				]
+			},
+			"rin_arm_L": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.8333, "angle": 12.51 },
+					{ "time": 1.6667, "angle": 0.0 }
+				]
+			},
+			"rin_happy_L": {
+				"rotate": [
+					{ "curve": "stepped", "time": 0.0, "angle": 0.0 },
+					{ "time": 0.4333, "angle": 25.2, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 3.6, "curve": "stepped" },
+					{ "time": 1.2667, "angle": 31.2 }
+				],
+				"translate": [
+					{ "x": 63.46, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "x": 153.95, "y": 197.42, "curve": "stepped" },
+					{ "time": 0.8333, "x": 133.68, "y": -97.62, "curve": "stepped" },
+					{ "time": 1.2667, "x": 149.98, "y": 192.08 }
+				],
+				"scale": [
+					{ "curve": "stepped", "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.4333, "x": 1.2, "y": 1.2, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0.8, "y": 0.8, "curve": "stepped" },
+					{ "time": 1.2667, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"rin_happy_R": {
+				"rotate": [
+					{ "angle": 26.4, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "angle": 50.4, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 16.8, "curve": "stepped" },
+					{ "time": 1.2667, "angle": 60 }
+				],
+				"translate": [
+					{ "x": 97.03, "y": -361.24, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "x": 206.76, "y": -590.8, "curve": "stepped" },
+					{ "time": 0.8333, "x": 92.09, "y": -447.97, "curve": "stepped" },
+					{ "time": 1.2667, "x": 268.9, "y": -692.01 }
+				],
+				"scale": [
+					{ "x": 1.2, "y": 1.2, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.4333, "x": 0.8, "y": 0.8, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.2, "y": 1.2, "curve": "stepped" },
+					{ "time": 1.2667, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"rin_hairPonytail3": {
+				"rotate": [
+					{ "angle": -8.22, "time": 0.0 },
+					{ "time": 0.8333, "angle": 7.38 },
+					{ "time": 1.6667, "angle": -8.22 }
+				]
+			},
+			"rin_hairRed2": {
+				"rotate": [
+					{ "angle": 24.65, "time": 0.0 },
+					{ "time": 0.8333, "angle": 9 },
+					{ "time": 1.6667, "angle": 24.65 }
+				]
+			},
+			"rin_bird3": {
+				"rotate": [
+					{ "angle": -31.66, "time": 0.0 },
+					{ "time": 0.4333, "angle": 58.34 },
+					{ "time": 0.8333, "angle": 148.34 },
+					{ "time": 1.2333, "angle": -121.66 },
+					{ "time": 1.6333, "angle": -32.16 },
+					{ "time": 1.6667, "angle": -31.66 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"rin_nest": {
+			"rin_nest": { "x": 49.21, "y": -1.31, "rotation": -119.05, "width": 400, "height": 242 }
+		},
+		"rin_arm_L": {
+			"rin_arm_L": { "x": 258, "y": 18.11, "rotation": 80.4, "width": 324, "height": 592 }
+		},
+		"rin_neck": {
+			"rin_neck": { "x": 85.49, "y": -4.41, "rotation": -90.61, "width": 126, "height": 182 }
+		},
+		"rin_hairPonytail": {
+			"rin_hairPonytail": { "x": 353.72, "y": -83.14, "rotation": 33.46, "width": 575, "height": 889 }
+		},
+		"rin_happy_L": {
+			"rin_happy_L": { "x": 52.91, "y": 47.02, "width": 404, "height": 904 }
+		},
+		"rin_arm_R": {
+			"rin_arm_R": { "x": 28.61, "y": 54.21, "rotation": 172.87, "width": 778, "height": 470 }
+		},
+		"rin_head": {
+			"rin_head": { "x": 245.93, "y": -13.02, "rotation": -90.29, "width": 528, "height": 531 }
+		},
+		"rin_body": {
+			"rin_body": {
+				"type": "mesh",
+				"uvs": [ 0.21475, 0.02555, 0.16428, 0.11938, 0.16663, 0.20138, 0.14685, 0.27966, 0.11326, 0.36314, 0.07631, 0.45339, 0.18995, 0.47257, 0.16438, 0.52269, 0.10164, 0.58324, 0.06635, 0.68815, 0.02649, 0.81443, 0.00623, 0.90486, 0, 0.96465, 0.16948, 0.96126, 0.37252, 0.99247, 0.40383, 0.9694, 0.40686, 0.85744, 0.45232, 0.86151, 0.49576, 0.97755, 0.55738, 0.99654, 0.6887, 0.98569, 0.86407, 1, 0.83377, 0.8493, 0.797, 0.69641, 0.78993, 0.62856, 0.72427, 0.53628, 0.75255, 0.53234, 0.75267, 0.53201, 0.74602, 0.48934, 0.78286, 0.44888, 0.8435, 0.36588, 0.90108, 0.28921, 0.96371, 0.17182, 0.92128, 0.10206, 0.8829, 0.0851, 0.85057, 0.08985, 0.83643, 0.02946, 0.75865, 0.00571, 0.60207, 2.8E-4, 0.39297, 9.6E-4, 0.19924, 0.83227, 0.66335, 0.83684, 0.24514, 0.69295, 0.63537, 0.69522, 0.28612, 0.54081, 0.62087, 0.5514, 0.31181, 0.38126, 0.63208, 0.40187, 0.34803, 0.25157, 0.66912, 0.28109, 0.37045, 0.1337, 0.73019, 0.16644, 0.38112, 0.05243, 0.71993, 0.07355, 0.45159, 0.54869, 0.44744, 0.69835, 0.47349, 0.39019, 0.50175, 0.26733, 0.53062, 0.15546, 0.29737, 0.46399, 0.4588, 0.46751, 0.62338, 0.483 ],
+				"triangles": [ 27, 25, 28, 25, 61, 28, 26, 25, 27, 54, 60, 61, 44, 59, 54, 45, 54, 61, 45, 61, 25, 44, 8, 7, 42, 8, 44, 9, 8, 42, 24, 43, 45, 24, 45, 25, 43, 24, 23, 55, 44, 54, 55, 54, 45, 55, 45, 43, 42, 44, 55, 40, 9, 42, 10, 9, 40, 41, 43, 23, 41, 23, 22, 16, 42, 55, 40, 42, 16, 41, 17, 55, 41, 55, 43, 16, 55, 17, 11, 10, 40, 13, 11, 40, 13, 40, 16, 12, 11, 13, 15, 13, 16, 18, 17, 41, 20, 41, 22, 19, 18, 41, 14, 13, 15, 20, 19, 41, 20, 22, 21, 52, 0, 39, 53, 38, 37, 53, 37, 36, 35, 53, 36, 50, 0, 52, 1, 0, 50, 38, 52, 39, 58, 38, 53, 58, 52, 38, 50, 52, 58, 51, 53, 35, 58, 53, 51, 2, 1, 50, 48, 2, 50, 48, 50, 58, 57, 48, 58, 3, 2, 48, 49, 58, 51, 57, 58, 49, 35, 33, 32, 33, 35, 34, 32, 51, 35, 31, 51, 32, 49, 51, 31, 30, 49, 31, 46, 3, 48, 4, 3, 46, 56, 48, 57, 46, 48, 56, 47, 57, 49, 47, 49, 30, 56, 57, 47, 29, 47, 30, 46, 6, 4, 6, 5, 4, 60, 46, 56, 59, 46, 60, 46, 59, 6, 47, 60, 56, 28, 61, 47, 61, 60, 47, 29, 28, 47, 44, 6, 59, 7, 6, 44, 54, 59, 60 ],
+				"vertices": [ 1, 4, 599.89, 268.14, 1, 1, 4, 472.53, 301.27, 1, 1, 4, 365.02, 289.23, 1, 1, 4, 260.6, 297.17, 1, 1, 4, 148.21, 316.66, 1, 2, 4, 26.66, 338.29, 0.99481, 3, 512.61, 337.57, 0.00519, 2, 4, 10.75, 235.7, 0.88313, 3, 490.16, 236.21, 0.11687, 2, 4, -57.16, 252.17, 0.59763, 3, 423.44, 256.99, 0.40237, 2, 4, -141.81, 300.16, 0.34533, 3, 342.04, 310.3, 0.65467, 2, 4, -282.48, 318.54, 0.13371, 3, 202.84, 337.65, 0.86629, 2, 4, -451.59, 338.36, 0.02397, 3, 35.34, 368.26, 0.97603, 2, 4, -572.01, 345.25, 0.00271, 3, -84.39, 382.83, 0.99729, 1, 3, -163.38, 386.13, 1, 2, 4, -632.76, 194.37, 2.0E-5, 3, -154.67, 236.16, 0.99998, 1, 3, -190.75, 55.18, 1, 1, 3, -159.55, 28.3, 1, 2, 4, -477.03, -2.44, 8.0E-5, 3, -11.86, 29.78, 0.99992, 1, 3, -16.09, -10.63, 1, 1, 3, -167.99, -53.42, 1, 1, 3, -191.5, -108.7, 1, 1, 3, -173.9, -224.6, 1, 1, 3, -188.39, -380.45, 1, 1, 3, 9.55, -348, 1, 1, 3, 210.21, -309.75, 1, 2, 4, -145.15, -312.58, 0.00322, 3, 299.49, -300.96, 0.99678, 2, 4, -29.3, -243.44, 0.16967, 3, 419.52, -239.37, 0.83033, 2, 4, -21.83, -267.91, 0.22207, 3, 425.41, -264.28, 0.77793, 2, 4, -21.38, -267.98, 0.22105, 3, 425.86, -264.37, 0.77895, 2, 4, 34.12, -256.92, 0.38106, 3, 481.95, -256.89, 0.61894, 2, 4, 90.26, -284.51, 0.60684, 3, 536.21, -288.01, 0.39316, 2, 4, 204.22, -327.92, 0.85304, 3, 647.16, -338.63, 0.14696, 2, 4, 309.63, -369.4, 0.95233, 3, 749.7, -386.77, 0.04767, 2, 4, 468.91, -410.39, 0.99536, 3, 906.04, -437.87, 0.00464, 2, 4, 557.07, -364.48, 0.99968, 3, 996.95, -397.7, 3.2E-4, 1, 4, 576.22, -328.56, 1, 2, 4, 567.34, -300.61, 0.99999, 3, 1011.28, -334.62, 1.0E-5, 1, 4, 645.5, -280.8, 1, 1, 4, 670.34, -209.29, 1, 1, 4, 664.69, -70.5, 1, 1, 4, 646.73, 113.9, 1, 2, 4, -460.92, 183.79, 0.014, 3, 16.14, 214.6, 0.986, 1, 3, 21.72, -196.61, 1, 2, 4, -274.19, 160.23, 0.10104, 3, 200.98, 179.13, 0.89896, 1, 3, 207.73, -166.56, 1, 2, 4, -71.02, 142.56, 0.55306, 3, 402.59, 148.5, 0.44694, 2, 4, -57.61, -154.05, 0.06461, 3, 397, -148.36, 0.93539, 1, 4, 140.63, 139.29, 1, 2, 4, 139.7, -145.77, 0.76954, 3, 594.43, -152.72, 0.23046, 1, 4, 313.91, 123.09, 1, 2, 4, 301.35, -163.77, 0.96172, 3, 754.6, -181.04, 0.03828, 1, 4, 470.56, 117.63, 1, 2, 4, 456.92, -203.71, 0.99642, 3, 907.29, -230.85, 0.00358, 1, 4, 578.17, 118.1, 1, 1, 4, 578.08, -183.38, 1, 2, 4, -67.86, -4.38, 0.00115, 3, 396.34, 1.66, 0.99885, 1, 3, 198.92, -0.23, 1, 2, 4, 142.09, -4.44, 0.99794, 3, 605.86, -11.83, 0.00206, 2, 4, 305.76, -14.44, 0.99942, 3, 768.56, -32.29, 5.8E-4, 1, 4, 455.05, -26.31, 1, 2, 4, 30.79, 141.97, 0.91641, 3, 504.16, 141.4, 0.08359, 2, 4, 39.34, -0.88, 0.99645, 3, 503.55, -1.7, 0.00355, 2, 4, 32.43, -147.95, 0.35618, 3, 487.24, -148.04, 0.64382 ],
+				"hull": 40
+			}
+		},
+		"rin_happy_R": {
+			"rin_happy_R": { "x": -80.35, "y": 60.87, "width": 575, "height": 795 }
+		},
+		"rin_eyebrow_L": {
+			"rin_eyebrow_L": { "x": -45.11, "y": -2.96, "rotation": -90.29, "width": 122, "height": 104 }
+		},
+		"rin-mouth": {
+			"rin-mouth": { "x": -3.31, "y": -19.02, "rotation": -90.29, "width": 300, "height": 142 }
+		},
+		"rin_collar_L": {
+			"rin_collar_L": { "x": -67.2, "y": 42.5, "rotation": -84.71, "width": 194, "height": 229 }
+		},
+		"rin_eyebrow_R": {
+			"rin_eyebrow_R": { "x": -35.77, "y": -1.71, "rotation": -90.29, "width": 120, "height": 81 }
+		},
+		"rin_eye_L": {
+			"rin_eye_L": { "x": 9.13, "y": 1.46, "rotation": -90.29, "width": 129, "height": 96 }
+		},
+		"rin_collar_R": {
+			"rin_collar_R": { "x": -69.6, "y": -3.27, "rotation": -84.71, "width": 116, "height": 222 }
+		},
+		"rin_eye_R": {
+			"rin_eye_R": { "x": 8.11, "y": -2.15, "rotation": -90.29, "width": 123, "height": 90 }
+		},
+		"rin_bag": {
+			"rin_bag": { "x": -94.81, "y": 3.2, "rotation": -88.38, "width": 158, "height": 381 }
+		},
+		"rin_bird": {
+			"rin_bird": { "x": 16.24, "y": 0.5, "rotation": -121.95, "width": 287, "height": 285 }
+		},
+		"rin_hand_L": {
+			"rin_hand_L": { "x": 287.18, "y": 7.29, "rotation": 80.54, "width": 277, "height": 705 }
+		},
+		"rin_hairRed": {
+			"rin_hairRed": { "x": 242.75, "y": -55.11, "rotation": 152.84, "width": 527, "height": 182 }
+		},
+		"rin_hand_R": {
+			"rin_hand_R": { "x": -51.54, "y": -146.56, "rotation": 172.87, "width": 457, "height": 987 }
+		},
+		"rin_hammer": {
+			"rin_hammer": { "x": 16.16, "y": 14.83, "rotation": -100.49, "width": 256, "height": 295 }
+		},
+		"rin_hairback": {
+			"rin_hairback": { "x": -244.6, "y": -7.04, "rotation": -90.29, "width": 829, "height": 658 }
+		},
+		"rin_hat": {
+			"rin_hat": { "x": -44.45, "y": -8.22, "rotation": -90.29, "width": 912, "height": 566 }
+		},
+		"rin_hat_logo": {
+			"rin_hat_logo": { "x": 13.29, "y": -7.58, "rotation": -90.29, "width": 404, "height": 200 }
+		},
+		"rin_ear_R": {
+			"rin_ear_R": { "x": 61.98, "y": -36.57, "rotation": 158.32, "width": 221, "height": 266 }
+		},
+		"rin_ear_L": {
+			"rin_ear_L": { "x": 86.21, "y": -9.93, "rotation": 13.24, "width": 196, "height": 315 }
+		},
+		"rin_hair_1": {
+			"rin_hair_1": { "x": 145.89, "y": 3.96, "rotation": 85.16, "width": 116, "height": 353 }
+		},
+		"rin_hair_2": {
+			"rin_hair_2": { "x": 240.66, "y": -19.53, "rotation": 113.91, "width": 395, "height": 496 }
+		}
+	}
+}
+}

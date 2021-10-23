@@ -1,0 +1,223 @@
+
+elfin_doctor.png
+size: 256,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blush_L
+  rotate: false
+  xy: 2, 25
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+Blush_R
+  rotate: false
+  xy: 2, 70
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+R_leg_C
+  rotate: false
+  xy: 190, 309
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+R_toe_L
+  rotate: false
+  xy: 203, 77
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+R_toe_R
+  rotate: false
+  xy: 2, 4
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+Stethoscope_C
+  rotate: false
+  xy: 190, 47
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+Stethoscope_J
+  rotate: 180
+  xy: 146, 371
+  size: 62, 78
+  orig: 66, 81
+  offset: 2, 1
+  index: -1
+Stethoscope_L
+  rotate: false
+  xy: 46, 16
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Stethoscope_Line
+  rotate: 180
+  xy: 76, 21
+  size: 116, 88
+  orig: 119, 92
+  offset: 2, 0
+  index: -1
+Stethoscope_R
+  rotate: 180
+  xy: 23, 110
+  size: 188, 87
+  orig: 189, 88
+  offset: 0, 1
+  index: -1
+arm_L
+  rotate: false
+  xy: 75, 459
+  size: 119, 88
+  orig: 119, 88
+  offset: 0, 0
+  index: -1
+arm_body_L
+  rotate: false
+  xy: 2, 271
+  size: 112, 72
+  orig: 114, 73
+  offset: 1, 0
+  index: -1
+arm_body_R
+  rotate: 180
+  xy: 82, 194
+  size: 105, 91
+  orig: 106, 92
+  offset: 0, 1
+  index: -1
+arm_c_L
+  rotate: false
+  xy: 104, 282
+  size: 94, 85
+  orig: 94, 86
+  offset: 0, 0
+  index: -1
+arm_c_R
+  rotate: true
+  xy: 2, 180
+  size: 90, 92
+  orig: 93, 92
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 702
+  size: 201, 213
+  orig: 201, 213
+  offset: 0, 0
+  index: -1
+cloth_L
+  rotate: true
+  xy: 96, 78
+  size: 39, 114
+  orig: 41, 129
+  offset: 1, 0
+  index: -1
+cloth_R
+  rotate: 180
+  xy: 64, 539
+  size: 140, 122
+  orig: 141, 123
+  offset: 1, 1
+  index: -1
+collar_L
+  rotate: false
+  xy: 53, 7
+  size: 54, 77
+  orig: 55, 77
+  offset: 1, 0
+  index: -1
+collar_R
+  rotate: 180
+  xy: 72, 148
+  size: 123, 72
+  orig: 124, 72
+  offset: 0, 0
+  index: -1
+eyebow_L
+  rotate: false
+  xy: 2, 891
+  size: 28, 24
+  orig: 28, 26
+  offset: 0, 1
+  index: -1
+eyebow_R
+  rotate: false
+  xy: 182, 117
+  size: 35, 22
+  orig: 35, 24
+  offset: 0, 1
+  index: -1
+glasses
+  rotate: 180
+  xy: 8, 339
+  size: 156, 80
+  orig: 157, 81
+  offset: 0, 1
+  index: -1
+greencloth
+  rotate: 180
+  xy: 2, 636
+  size: 199, 98
+  orig: 201, 98
+  offset: 2, 0
+  index: -1
+hair
+  rotate: 180
+  xy: 2, 409
+  size: 143, 83
+  orig: 144, 83
+  offset: 1, 0
+  index: -1
+hair_back_L
+  rotate: false
+  xy: 2, 733
+  size: 13, 21
+  orig: 13, 22
+  offset: 0, 1
+  index: -1
+hair_back_R
+  rotate: false
+  xy: 2, 878
+  size: 23, 12
+  orig: 23, 12
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 171, 4
+  size: 44, 45
+  orig: 46, 45
+  offset: 1, 0
+  index: -1
+leg_L
+  rotate: false
+  xy: 185, 204
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 176, 255
+  size: 35, 25
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 159, 487
+  size: 93, 60
+  orig: 93, 60
+  offset: 0, 0
+  index: -1

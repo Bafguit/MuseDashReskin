@@ -1,0 +1,111 @@
+
+elfin_fan_robot.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box
+  rotate: false
+  xy: 2, 54
+  size: 194, 139
+  orig: 194, 139
+  offset: 0, 0
+  index: -1
+camera
+  rotate: 270
+  xy: 371, 3
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+camera_body
+  rotate: true
+  xy: 233, 111
+  size: 82, 70
+  orig: 85, 70
+  offset: 0, 0
+  index: -1
+fan_1
+  rotate: false
+  xy: 2, 18
+  size: 170, 34
+  orig: 170, 34
+  offset: 0, 0
+  index: -1
+fan_2
+  rotate: true
+  xy: 197, 22
+  size: 170, 34
+  orig: 170, 34
+  offset: 0, 0
+  index: -1
+hand_l_1
+  rotate: false
+  xy: 357, 52
+  size: 52, 57
+  orig: 52, 57
+  offset: 0, 0
+  index: -1
+hand_l_2
+  rotate: false
+  xy: 299, 40
+  size: 56, 69
+  orig: 56, 69
+  offset: 0, 0
+  index: -1
+hand_l_3_back
+  rotate: false
+  xy: 303, 8
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+hand_l_3_front
+  rotate: false
+  xy: 333, 9
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+hand_r_1
+  rotate: true
+  xy: 305, 111
+  size: 59, 54
+  orig: 59, 54
+  offset: 0, 0
+  index: -1
+hand_r_2
+  rotate: false
+  xy: 233, 36
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+hand_r_3_back
+  rotate: false
+  xy: 271, 4
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+hand_r_3_front
+  rotate: false
+  xy: 233, 4
+  size: 36, 30
+  orig: 36, 30
+  offset: 0, 0
+  index: -1
+handle
+  rotate: true
+  xy: 382, 107
+  size: 85, 37
+  orig: 85, 37
+  offset: 0, 0
+  index: -1
+stick
+  rotate: false
+  xy: 174, 25
+  size: 17, 42
+  orig: 17, 42
+  offset: 0, 0
+  index: -1

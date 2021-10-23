@@ -1,0 +1,223 @@
+
+2_pilot_victory.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bear_L_ear
+  rotate: false
+  xy: 1071, 191
+  size: 107, 118
+  orig: 107, 118
+  offset: 0, 0
+  index: -1
+bear_L_eye
+  rotate: false
+  xy: 256, 10
+  size: 68, 54
+  orig: 68, 54
+  offset: 0, 0
+  index: -1
+bear_L_hand
+  rotate: true
+  xy: 831, 163
+  size: 137, 136
+  orig: 137, 136
+  offset: 0, 0
+  index: -1
+bear_R_ear
+  rotate: true
+  xy: 1136, 315
+  size: 75, 45
+  orig: 75, 45
+  offset: 0, 0
+  index: -1
+bear_R_eye
+  rotate: true
+  xy: 1173, 22
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+bear_R_hand
+  rotate: false
+  xy: 831, 302
+  size: 137, 207
+  orig: 137, 207
+  offset: 0, 0
+  index: -1
+bear_belt
+  rotate: true
+  xy: 384, 158
+  size: 351, 122
+  orig: 351, 122
+  offset: 0, 0
+  index: -1
+bear_body
+  rotate: false
+  xy: 2, 66
+  size: 380, 443
+  orig: 380, 443
+  offset: 0, 0
+  index: -1
+bear_mouth
+  rotate: true
+  xy: 2, 4
+  size: 60, 124
+  orig: 60, 124
+  offset: 0, 0
+  index: -1
+girl_L_eye
+  rotate: false
+  xy: 930, 8
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+girl_L_eyebrow
+  rotate: false
+  xy: 384, 69
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+girl_L_hair_02
+  rotate: true
+  xy: 326, 12
+  size: 52, 95
+  orig: 52, 95
+  offset: 0, 0
+  index: -1
+girl_L_hand_1
+  rotate: false
+  xy: 969, 178
+  size: 100, 122
+  orig: 100, 122
+  offset: 0, 0
+  index: -1
+girl_L_hand_2
+  rotate: false
+  xy: 646, 4
+  size: 120, 153
+  orig: 120, 153
+  offset: 0, 0
+  index: -1
+girl_L_horsetail
+  rotate: false
+  xy: 210, 6
+  size: 44, 58
+  orig: 44, 58
+  offset: 0, 0
+  index: -1
+girl_L_leg_1
+  rotate: false
+  xy: 1054, 14
+  size: 117, 162
+  orig: 117, 162
+  offset: 0, 0
+  index: -1
+girl_R_eye
+  rotate: false
+  xy: 384, 132
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+girl_R_eyebrow
+  rotate: false
+  xy: 397, 71
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+girl_R_hair_02
+  rotate: true
+  xy: 128, 4
+  size: 60, 80
+  orig: 60, 80
+  offset: 0, 0
+  index: -1
+girl_R_hand_1
+  rotate: false
+  xy: 1173, 71
+  size: 41, 118
+  orig: 41, 118
+  offset: 0, 0
+  index: -1
+girl_R_hand_2
+  rotate: false
+  xy: 1136, 392
+  size: 104, 117
+  orig: 104, 117
+  offset: 0, 0
+  index: -1
+girl_R_horsetail
+  rotate: false
+  xy: 1180, 210
+  size: 95, 103
+  orig: 95, 103
+  offset: 0, 0
+  index: -1
+girl_R_leg_1
+  rotate: false
+  xy: 523, 4
+  size: 121, 153
+  orig: 121, 153
+  offset: 0, 0
+  index: -1
+girl_R_leg_2
+  rotate: false
+  xy: 423, 2
+  size: 98, 154
+  orig: 98, 154
+  offset: 0, 0
+  index: -1
+girl_body_1
+  rotate: false
+  xy: 970, 311
+  size: 164, 198
+  orig: 164, 198
+  offset: 0, 0
+  index: -1
+girl_body_2
+  rotate: true
+  xy: 930, 37
+  size: 124, 122
+  orig: 124, 122
+  offset: 0, 0
+  index: -1
+girl_body_3
+  rotate: true
+  xy: 1242, 418
+  size: 91, 38
+  orig: 91, 38
+  offset: 0, 0
+  index: -1
+girl_hair_01
+  rotate: false
+  xy: 1183, 318
+  size: 97, 72
+  orig: 97, 72
+  offset: 0, 0
+  index: -1
+girl_head
+  rotate: false
+  xy: 768, 11
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+girl_mouth
+  rotate: false
+  xy: 384, 84
+  size: 30, 46
+  orig: 30, 46
+  offset: 0, 0
+  index: -1
+girl_scarf
+  rotate: false
+  xy: 508, 159
+  size: 321, 350
+  orig: 321, 359
+  offset: 0, 0
+  index: -1

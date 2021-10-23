@@ -1,0 +1,1741 @@
+{
+"skeleton": { "hash": "ttMmLY49dgfTEIKlbsdDcS1BxbE", "spine": "3.8.75" },
+"bones": [
+	{ "name": "root", "rotation": 3.72, "scaleX": 1.2, "scaleY": 1.2 },
+	{ "name": "fool_X", "parent": "root", "x": 1.41, "y": 395.22 },
+	{ "name": "fool_Y", "parent": "fool_X" },
+	{ "name": "fool_body1", "parent": "fool_Y", "length": 250.86, "rotation": 90.23, "x": -2.21, "y": 15.73 },
+	{ "name": "fool_body2", "parent": "fool_body1", "length": 250.86, "x": 250.86 },
+	{ "name": "fool_neck", "parent": "fool_body2", "length": 75.32, "rotation": 1.66, "x": 275.71, "y": 1.39 },
+	{ "name": "fool_arm_L2", "parent": "fool_body2", "length": 356.66, "rotation": -130.11, "x": 280.82, "y": -147.57 },
+	{ "name": "fool_arm_L1", "parent": "fool_arm_L2", "length": 236.79, "rotation": 127.74, "x": 366.7, "y": 4.08 },
+	{ "name": "fool_hand_L", "parent": "fool_arm_L1", "length": 174.32, "rotation": 15.07, "x": 234.13, "y": -1.24 },
+	{ "name": "fool_finger_L", "parent": "fool_hand_L", "length": 71.18, "rotation": 138.2, "x": 181.76, "y": -11.83 },
+	{ "name": "fool_arm_R2", "parent": "fool_body2", "length": 307.07, "rotation": 169.25, "x": 206.33, "y": 190.11 },
+	{ "name": "fool_arm_R3", "parent": "fool_arm_R2", "x": 372.33, "y": -128.36 },
+	{ "name": "fool_hand_R", "parent": "fool_arm_R3", "length": 118.52, "rotation": -133.18, "x": -3.4, "y": 23.31 },
+	{ "name": "fool_finger_R", "parent": "fool_hand_R", "length": 90.59, "rotation": -109.61, "x": 125.8, "y": 85.1 },
+	{ "name": "fool_KSF", "parent": "fool_hand_R", "length": 53.49, "rotation": -46.12, "x": 40.97, "y": -9.24 },
+	{ "name": "fool_oil", "parent": "fool_KSF", "length": 56.63, "rotation": -170.96, "x": 82.27, "y": -114.57 },
+	{ "name": "fool_oil2", "parent": "fool_oil", "length": 56.14, "rotation": -2.1, "x": 57.46, "y": -0.04 },
+	{ "name": "fool_bag", "parent": "fool_body1", "x": 26.97, "y": 152.34 },
+	{ "name": "fool_hammer", "parent": "fool_bag", "length": 104.79, "rotation": 4.63, "x": 48.72, "y": -18.07 },
+	{ "name": "fool_towel_R", "parent": "fool_body2", "length": 73.62, "rotation": -177.52, "x": 290.23, "y": 123.72 },
+	{ "name": "fool_towel_R2", "parent": "fool_towel_R", "length": 74.31, "rotation": 0.19, "x": 73.64, "y": 0.42 },
+	{ "name": "fool_towel_R3", "parent": "fool_towel_R2", "length": 84, "rotation": 1.83, "x": 74.66, "y": -0.04 },
+	{ "name": "fool_towel_L", "parent": "fool_body2", "length": 67.31, "rotation": 174.87, "x": 319.41, "y": -106.22 },
+	{ "name": "fool_towel_L2", "parent": "fool_towel_L", "length": 61.47, "rotation": 0.21, "x": 70.05, "y": 0.4 },
+	{ "name": "fool_towel_L3", "parent": "fool_towel_L2", "length": 70.04, "rotation": 0.68, "x": 63.19, "y": -0.66 },
+	{ "name": "fool_leg_L", "parent": "fool_Y", "length": 388.57, "rotation": -79.53, "x": 61.18, "y": -0.82 },
+	{ "name": "fool_leg_L2", "parent": "fool_leg_L", "length": 524.64, "rotation": -5.62, "x": 405.59, "y": -0.32 },
+	{ "name": "fool_leg_R", "parent": "fool_Y", "length": 400.14, "rotation": -100.3, "x": -91.28, "y": -31.22 },
+	{ "name": "fool_leg_R2", "parent": "fool_leg_R", "length": 460.94, "rotation": 5.4, "x": 428.48, "y": 0.55 },
+	{ "name": "fool_head", "parent": "fool_neck", "length": 209.19, "rotation": 0.6, "x": 77.66, "y": 0.29 },
+	{ "name": "fool_face_X", "parent": "fool_head", "x": 75.35, "y": -3.99 },
+	{ "name": "fool_face_Y", "parent": "fool_face_X" },
+	{ "name": "fool_snot", "parent": "fool_face_Y", "length": 41.77, "rotation": 174.97, "x": -12.89, "y": -8.51 },
+	{ "name": "fool_snot2", "parent": "fool_snot", "length": 43.79, "rotation": -0.81, "x": 44.09, "y": -0.05 },
+	{ "name": "fool_mouth", "parent": "fool_face_Y", "rotation": -4.8, "x": -36.33, "y": 6.58 },
+	{ "name": "fool_eyewhite_R", "parent": "fool_face_Y", "x": 23.44, "y": 40.49 },
+	{ "name": "fool_eyewhite_L", "parent": "fool_face_Y", "x": 26.46, "y": -45.46 },
+	{ "name": "fool_eye_L", "parent": "fool_eyewhite_L", "x": -8.07, "y": 21.08 },
+	{ "name": "fool_eye_R", "parent": "fool_eyewhite_R", "x": -0.14, "y": -14.14 },
+	{ "name": "fool_eyebrow_R", "parent": "fool_face_Y", "x": 81.4, "y": 30.53 },
+	{ "name": "fool_eyebrow_L", "parent": "fool_face_Y", "x": 79.54, "y": -52.39 },
+	{ "name": "fool_eyebrows_B", "parent": "fool_face_Y", "x": 85.99, "y": 2.62 },
+	{ "name": "fool_ear_L_X", "parent": "fool_head", "x": 120.41, "y": -108.91 },
+	{ "name": "fool_ear_L_Y", "parent": "fool_ear_L_X" },
+	{ "name": "fool_ear_L", "parent": "fool_ear_L_Y", "length": 63.99, "rotation": -99.91, "x": -0.19, "y": -16.04 },
+	{ "name": "fool_ear_R_X", "parent": "fool_head", "x": 94.21, "y": 106.87 },
+	{ "name": "fool_ear_R_Y", "parent": "fool_ear_R_X" },
+	{ "name": "fool_ear_R", "parent": "fool_ear_R_Y", "length": 86.16, "rotation": 89.24, "x": 0.01, "y": 14.33 },
+	{ "name": "fool_wrench", "parent": "fool_hand_L", "rotation": -21.6, "x": 70.06, "y": 28.42 },
+	{ "name": "fool_wrench3", "parent": "fool_wrench", "length": 211.71, "rotation": 89.22, "x": -0.36, "y": 15.36 },
+	{ "name": "fool_hat_X", "parent": "fool_head", "x": 243.38, "y": -0.2 },
+	{ "name": "fool_hat_Y", "parent": "fool_hat_X" },
+	{ "name": "fool_logo_X", "parent": "fool_hat_Y", "x": 84.54, "y": 9.57 },
+	{ "name": "fool_logo_Y", "parent": "fool_logo_X" },
+	{ "name": "fool_hair_A_X", "parent": "fool_head", "x": 342.93, "y": -12.44 },
+	{ "name": "fool_hair_A_Y", "parent": "fool_hair_A_X" },
+	{ "name": "fool_hair_A", "parent": "fool_hair_A_Y", "length": 75.21, "rotation": -142.86, "x": -12.26, "y": -11.18 },
+	{ "name": "fool_hair_A2", "parent": "fool_hair_A", "length": 63.39, "rotation": -3.42, "x": 82.1, "y": -0.66 },
+	{ "name": "fool_hair_A3", "parent": "fool_hair_A2", "length": 70.37, "rotation": -12.72, "x": 68.83, "y": -2.97 },
+	{ "name": "fool_hair_A4", "parent": "fool_hair_A2", "length": 64.97, "rotation": -11.46, "x": 33.49, "y": -47.06 },
+	{ "name": "fool_hair_B_X", "parent": "fool_head", "x": 336.57, "y": 53.67 },
+	{ "name": "fool_hair_B_Y", "parent": "fool_hair_B_X" },
+	{ "name": "fool_hair_B", "parent": "fool_hair_B_Y", "length": 77.61, "rotation": 179.76, "x": -14.92, "y": 1 },
+	{ "name": "fool_hair_B2", "parent": "fool_hair_B", "length": 60.7, "rotation": 7.05, "x": 84.55, "y": 0.52 },
+	{ "name": "fool_hair_B3", "parent": "fool_hair_B2", "length": 49.21, "rotation": 5.4, "x": 64.95, "y": -0.98 },
+	{ "name": "fool_hair_C_X", "parent": "fool_head", "x": 338.73, "y": 92.67 },
+	{ "name": "fool_hair_C_Y", "parent": "fool_hair_C_X" },
+	{ "name": "fool_hair_C", "parent": "fool_hair_C_Y", "length": 110.16, "rotation": 168.51, "x": -11.36, "y": 3.92 },
+	{ "name": "fool_hair_C2", "parent": "fool_hair_C", "length": 107.22, "rotation": 8.69, "x": 112.91, "y": -0.82 },
+	{ "name": "fool_hair_C3", "parent": "fool_hair_C2", "length": 107.49, "rotation": 9.17, "x": 109.85, "y": -0.69 },
+	{ "name": "fool_nest_X", "parent": "fool_hat_Y", "x": 101.53, "y": 112.34 },
+	{ "name": "fool_nest_Y", "parent": "fool_nest_X" },
+	{ "name": "fool_nest", "parent": "fool_nest_Y", "length": 55.08, "rotation": 2.44, "x": 6.17, "y": 4.96 },
+	{ "name": "fool_bird_X", "parent": "fool_nest_Y", "x": 22.34, "y": 1.67 },
+	{ "name": "fool_bird_Y", "parent": "fool_bird_X" },
+	{ "name": "fool_bird", "parent": "fool_bird_Y", "length": 102.67, "rotation": 35.44, "x": 8.21, "y": 6.3 },
+	{ "name": "fool_hairred_X", "parent": "fool_head", "x": 226.42, "y": 30.13 },
+	{ "name": "fool_hairred_Y", "parent": "fool_hairred_X" },
+	{ "name": "fool_hairred", "parent": "fool_hairred_Y", "length": 59.42, "rotation": 118.56, "x": -5.07, "y": 5.05 },
+	{ "name": "fool_hairred2", "parent": "fool_hairred", "length": 77.69, "rotation": -10.43, "x": 59.42 },
+	{ "name": "fool_hairred3", "parent": "fool_hairred2", "length": 63.97, "rotation": -9.51, "x": 77.69 },
+	{ "name": "fool_hairred4", "parent": "fool_hairred3", "length": 80.89, "rotation": -30.61, "x": 63.97 },
+	{ "name": "fool_horsetail_X", "parent": "fool_head", "x": 404.16, "y": -10.95 },
+	{ "name": "fool_horsetail_Y", "parent": "fool_horsetail_X" },
+	{ "name": "fool_horsetail", "parent": "fool_horsetail_Y", "length": 122.15, "rotation": -106.38, "x": 11.46, "y": -10.34 },
+	{ "name": "fool_horsetail2", "parent": "fool_horsetail", "length": 134.06, "rotation": -18.66, "x": 120.66, "y": 0.44 },
+	{ "name": "fool_horsetail3", "parent": "fool_horsetail2", "length": 141.97, "rotation": -22.74, "x": 136.29, "y": -1.16 },
+	{ "name": "fool_water_7", "parent": "fool_face_Y", "x": 14.99, "y": 104.28 },
+	{ "name": "fool_water_6", "parent": "fool_face_Y", "x": -47.34, "y": 43.72 },
+	{ "name": "fool_water_5", "parent": "fool_face_Y", "x": -33.65, "y": -49.94 },
+	{ "name": "fool_water_3", "parent": "fool_face_Y", "x": 86.99, "y": -95.74 },
+	{ "name": "fool_water_2", "parent": "fool_face_Y", "x": 66.77, "y": 6.89 },
+	{ "name": "fool_sunglasses", "parent": "fool_face_Y", "x": 52.31, "y": 7.64 },
+	{ "name": "fool_smoke", "parent": "fool_mouth", "x": -16.54, "y": -56.71 }
+],
+"slots": [
+	{ "name": "fool_leg_L", "bone": "fool_leg_L", "attachment": "fool_leg_L" },
+	{ "name": "fool_leg_R", "bone": "fool_leg_R", "attachment": "fool_leg_R" },
+	{ "name": "fool_arm_R1", "bone": "fool_arm_R2", "attachment": "fool_arm_R1" },
+	{ "name": "fool_arm_R2", "bone": "fool_arm_R2", "attachment": "fool_arm_R2" },
+	{ "name": "fool_hand_R", "bone": "fool_hand_R", "attachment": "fool_hand_R" },
+	{ "name": "fool_arm_L2", "bone": "fool_arm_L2", "attachment": "fool_arm_L2" },
+	{ "name": "fool_arm_L1", "bone": "fool_arm_L1", "attachment": "fool_arm_L1" },
+	{ "name": "fool_hand_L", "bone": "fool_hand_L", "attachment": "fool_hand_L" },
+	{ "name": "fool_wrench", "bone": "fool_wrench3", "attachment": "fool_wrench" },
+	{ "name": "fool_finger_L", "bone": "fool_finger_L", "attachment": "fool_finger_L" },
+	{ "name": "fool_body", "bone": "fool_body1", "attachment": "fool_body" },
+	{ "name": "fool_towel_L", "bone": "fool_towel_L", "attachment": "fool_towel_L" },
+	{ "name": "fool_towel_R", "bone": "fool_towel_R", "attachment": "fool_towel_R" },
+	{ "name": "fool_neck", "bone": "fool_neck", "attachment": "fool_neck" },
+	{ "name": "fool_hammer", "bone": "fool_hammer", "attachment": "fool_hammer" },
+	{ "name": "fool_bag", "bone": "fool_bag", "attachment": "fool_bag" },
+	{ "name": "fool_oil", "bone": "fool_oil", "attachment": "fool_oil" },
+	{ "name": "fool_KSF", "bone": "fool_KSF", "attachment": "fool_KSF" },
+	{ "name": "fool_finger_R", "bone": "fool_finger_R", "attachment": "fool_finger_R" },
+	{ "name": "fool_horsetail", "bone": "fool_horsetail", "attachment": "fool_horsetail" },
+	{ "name": "fool_hairback", "bone": "fool_head", "attachment": "fool_hairback" },
+	{ "name": "fool_ear_L", "bone": "fool_ear_L", "attachment": "fool_ear_L" },
+	{ "name": "fool_ear_R", "bone": "fool_ear_R", "attachment": "fool_ear_R" },
+	{ "name": "fool_head", "bone": "fool_head", "attachment": "fool_head" },
+	{ "name": "fool_hair_C", "bone": "fool_hair_C", "attachment": "fool_hair_C" },
+	{ "name": "fool_hair_B", "bone": "fool_hair_B", "attachment": "fool_hair_B" },
+	{ "name": "fool_hair_A", "bone": "fool_hair_A", "attachment": "fool_hair_A" },
+	{ "name": "fool_bird", "bone": "fool_bird", "attachment": "fool_bird" },
+	{ "name": "fool_nest", "bone": "fool_nest", "attachment": "fool_nest" },
+	{ "name": "fool_face_X_mask", "bone": "fool_face_X", "attachment": "fool_face_X_mask" },
+	{ "name": "fool_mouth_A", "bone": "fool_mouth", "attachment": "fool_mouth_A" },
+	{ "name": "fool_eyewhite_LA", "bone": "fool_eyewhite_L", "attachment": "fool_eyewhite_LA" },
+	{ "name": "fool_eyewhite_RA", "bone": "fool_eyewhite_R", "attachment": "fool_eyewhite_RA" },
+	{ "name": "fool_eye_L", "bone": "fool_eye_L", "attachment": "fool_eye_L" },
+	{ "name": "fool_eye_R", "bone": "fool_eye_R", "attachment": "fool_eye_R" },
+	{ "name": "fool_eyebrow_L", "bone": "fool_eyebrow_L", "attachment": "fool_eyebrow_L" },
+	{ "name": "fool_eyebrow_R", "bone": "fool_eyebrow_R", "attachment": "fool_eyebrow_R" },
+	{ "name": "fool_face_water", "bone": "fool_face_Y" },
+	{ "name": "fool_water_7", "bone": "fool_water_7" },
+	{ "name": "fool_water_6", "bone": "fool_water_6" },
+	{ "name": "fool_water_5", "bone": "fool_water_5" },
+	{ "name": "fool_water_3", "bone": "fool_water_3" },
+	{ "name": "fool_water_2", "bone": "fool_water_2" },
+	{ "name": "fool_face_sily", "bone": "fool_face_Y" },
+	{ "name": "fool_face_error", "bone": "fool_face_Y" },
+	{ "name": "fool_face_anger", "bone": "fool_face_Y" },
+	{ "name": "fool_eyebrow_L_anger", "bone": "fool_eyebrow_L" },
+	{ "name": "fool_eyebrow_R_anger", "bone": "fool_eyebrow_R" },
+	{ "name": "fool_mouth_cool", "bone": "fool_mouth" },
+	{ "name": "fool_sunglasses", "bone": "fool_sunglasses" },
+	{ "name": "fool_smoke", "bone": "fool_smoke" },
+	{ "name": "fool_hat", "bone": "fool_hat_Y", "attachment": "fool_hat" },
+	{ "name": "fool_logo", "bone": "fool_logo_X", "attachment": "fool_logo" },
+	{ "name": "fool_hairred", "bone": "fool_hairred", "attachment": "fool_hairred" }
+],
+"animations": {
+	"Bpmstandby": {
+		"bones": {
+			"fool_head": {
+				"rotate": [
+					{ "angle": -1.74, "time": 0.0 },
+					{ "time": 0.6667, "angle": -8.62 },
+					{ "time": 1.3333, "angle": -1.74 }
+				],
+				"translate": [
+					{ "x": -2.9, "y": 3.78, "time": 0.0 },
+					{ "time": 0.3333, "x": -26.26, "y": 1.36 },
+					{ "time": 0.6667, "x": -2.9, "y": 3.78 },
+					{ "time": 1, "x": -26.26, "y": 1.36 },
+					{ "time": 1.3333, "x": -2.9, "y": 3.78 }
+				]
+			},
+			"fool_arm_L2": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 14.7 },
+					{ "time": 1.3333, "angle": 0.0 }
+				]
+			},
+			"fool_arm_R2": {
+				"rotate": [
+					{ "angle": -16.38, "time": 0.0 },
+					{ "time": 0.6667, "angle": -10.9 },
+					{ "time": 1.3333, "angle": -16.38 }
+				],
+				"translate": [
+					{ "x": 9.47, "y": 7.9, "time": 0.0 },
+					{ "time": 0.6667, "x": -3.02, "y": 9.13 },
+					{ "time": 1.3333, "x": 9.47, "y": 7.9 }
+				]
+			},
+			"fool_towel_R": {
+				"rotate": [
+					{ "angle": -23.79, "time": 0.0 },
+					{ "time": 0.6667, "angle": 25.85 },
+					{ "time": 1.3333, "angle": -23.79 }
+				]
+			},
+			"fool_towel_L": {
+				"rotate": [
+					{ "angle": -16.44, "time": 0.0 },
+					{ "time": 0.6667, "angle": 36.94 },
+					{ "time": 1.3333, "angle": -16.44 }
+				]
+			},
+			"fool_towel_R2": {
+				"rotate": [
+					{ "angle": -6.39, "time": 0.0 },
+					{ "time": 0.6667, "angle": 9.22 },
+					{ "time": 1.3333, "angle": -6.39 }
+				]
+			},
+			"fool_towel_R3": {
+				"rotate": [
+					{ "angle": -18.13, "time": 0.0 },
+					{ "time": 0.6667, "angle": 6.03 },
+					{ "time": 1.3333, "angle": -18.13 }
+				]
+			},
+			"fool_towel_L2": {
+				"rotate": [
+					{ "angle": -3.81, "time": 0.0 },
+					{ "time": 0.6667, "angle": 8.66 },
+					{ "time": 1.3333, "angle": -3.81 }
+				]
+			},
+			"fool_towel_L3": {
+				"rotate": [
+					{ "angle": -5.93, "time": 0.0 },
+					{ "time": 0.6667, "angle": 9.9 },
+					{ "time": 1.3333, "angle": -5.93 }
+				]
+			},
+			"fool_hair_B": {
+				"rotate": [
+					{ "angle": -21.7, "time": 0.0 },
+					{ "time": 0.6667, "angle": -2.55 },
+					{ "time": 1.3333, "angle": -21.7 }
+				]
+			},
+			"fool_hair_A": {
+				"rotate": [
+					{ "angle": -21.25, "time": 0.0 },
+					{ "time": 0.6667, "angle": 1.19 },
+					{ "time": 1.3333, "angle": -21.25 }
+				]
+			},
+			"fool_hair_C": {
+				"rotate": [
+					{ "angle": -9.17, "time": 0.0 },
+					{ "time": 0.6667, "angle": 3.35 },
+					{ "time": 1.3333, "angle": -9.17 }
+				]
+			},
+			"fool_hair_C_X": {
+				"translate": [
+					{ "y": -29.94, "time": 0.0 },
+					{ "time": 0.6667, "y": 21.1 },
+					{ "time": 1.3333, "y": -29.94 }
+				]
+			},
+			"fool_hair_B_X": {
+				"translate": [
+					{ "y": -27.27, "time": 0.0 },
+					{ "time": 0.6667, "y": 6.27 },
+					{ "time": 1.3333, "y": -27.27 }
+				]
+			},
+			"fool_hair_A_X": {
+				"translate": [
+					{ "y": -35.64, "time": 0.0 },
+					{ "time": 0.6667, "y": 12.74 },
+					{ "time": 1.3333, "y": -35.64 }
+				]
+			},
+			"fool_horsetail": {
+				"rotate": [
+					{ "angle": -18.93, "time": 0.0 },
+					{ "time": 0.6667, "angle": 3.11 },
+					{ "time": 1.3333, "angle": -18.93 }
+				]
+			},
+			"fool_finger_R": {
+				"rotate": [
+					{ "angle": 13.58, "time": 0.0 },
+					{ "time": 0.6667, "angle": 34.22 },
+					{ "time": 1.3333, "angle": 13.58 }
+				],
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.6667, "x": -51.27, "y": 33.09 },
+					{ "time": 1.3333 }
+				]
+			},
+			"fool_KSF": {
+				"rotate": [
+					{ "angle": 12.17, "time": 0.0 },
+					{ "time": 0.6667, "angle": 40.32 },
+					{ "time": 1.3333, "angle": 12.17 }
+				]
+			},
+			"fool_bird": {
+				"rotate": [
+					{ "angle": 61.12, "time": 0.0 },
+					{ "time": 0.1, "angle": -45.76 },
+					{ "time": 0.2333, "angle": 61.12 },
+					{ "time": 0.3333, "angle": -45.76 },
+					{ "time": 0.4333, "angle": 61.12 },
+					{ "time": 0.5667, "angle": -45.76 },
+					{ "time": 0.6667, "angle": 61.12 },
+					{ "time": 0.7667, "angle": -45.76 },
+					{ "time": 0.9, "angle": 61.12 },
+					{ "time": 1, "angle": -45.76 },
+					{ "time": 1.1, "angle": 61.12 },
+					{ "time": 1.2333, "angle": -45.76 },
+					{ "time": 1.3333, "angle": 61.12 }
+				]
+			},
+			"fool_hand_L": {
+				"rotate": [
+					{ "curve": "stepped", "time": 0.0, "angle": 0.0 },
+					{ "time": 0.3333, "angle": -25.3, "curve": "stepped" },
+					{ "time": 0.6667, "angle": -2.4, "curve": "stepped" },
+					{ "time": 1, "angle": -25.3, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0.0 }
+				]
+			},
+			"fool_hairred": {
+				"rotate": [
+					{ "angle": -13.2, "time": 0.0 },
+					{ "time": 0.6667, "angle": 7.2 },
+					{ "time": 1.3333, "angle": -13.2 }
+				]
+			},
+			"root": {
+				"scale": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0,
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 0.3333,
+						"y": 0.9,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"x": 1.0
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"x": 1.0,
+						"y": 1.0
+					},
+					{
+						"time": 1,
+						"y": 0.9,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"x": 1.0
+					},
+					{ "time": 1.3333, "x": 1.0, "y": 1.0 }
+				],
+				"shear": [
+					{
+						"y": 3,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 0.6667,
+						"y": -5,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 1.3333, "y": 3 }
+				]
+			}
+		}
+	},
+	"touch_anger_End": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_R" }
+				]
+			},
+			"fool_eyebrow_R_anger": {
+				"attachment": [
+					{ "name": "fool_eyebrow_R_anger", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_L_anger": {
+				"attachment": [
+					{ "name": "fool_eyebrow_L_anger", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_RA" }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_LA" }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_L" }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_mouth_A" }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_R" }
+				]
+			},
+			"fool_face_anger": {
+				"attachment": [
+					{ "name": "fool_face_anger", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_L" }
+				]
+			}
+		},
+		"bones": {
+			"fool_eyebrow_L": {
+				"translate": [
+					{ "time": 0.1 },
+					{ "time": 0.2, "x": 13.89 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"translate": [
+					{ "time": 0.1 },
+					{ "time": 0.2, "x": 34.55 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": -134.32 },
+					{ "time": 0.2, "x": 46.27 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.95, "y": 1.05 },
+					{ "time": 0.2, "x": 1.05, "y": 0.95 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"fool_face_X": {
+				"translate": [
+					{ "x": 3.16, "y": -0.35, "time": 0.0 }
+				]
+			}
+		}
+	},
+	"touch_anger_Standby": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_R_anger": {
+				"attachment": [
+					{ "name": "fool_eyebrow_R_anger", "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_L_anger": {
+				"attachment": [
+					{ "name": "fool_eyebrow_L_anger", "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_face_anger": {
+				"attachment": [
+					{ "name": "fool_face_anger", "time": 0.0 }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"fool_eyebrow_L": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.0333, "angle": 25.2 },
+					{ "time": 0.0667, "angle": 0.0 },
+					{ "time": 0.1, "angle": 25.2 },
+					{ "time": 0.1333, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.0333, "x": 27.61 },
+					{ "time": 0.0667 },
+					{ "time": 0.1, "x": 27.61 },
+					{ "time": 0.1333 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 0.0333, "angle": -14.4 },
+					{ "time": 0.0667, "angle": 0.0 },
+					{ "time": 0.1, "angle": -14.4 },
+					{ "time": 0.1333, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.0333, "x": -19.45, "y": 2.96 },
+					{ "time": 0.0667 },
+					{ "time": 0.1, "x": -19.45, "y": 2.96 },
+					{ "time": 0.1333 }
+				]
+			},
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"touch_anger_Start": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_R_anger": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_eyebrow_R_anger" }
+				]
+			},
+			"fool_eyebrow_L_anger": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_eyebrow_L_anger" }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_face_anger": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_face_anger" }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"fool_eyebrow_L": {
+				"translate": [
+					{ "time": 0.1 },
+					{ "time": 0.2, "x": 13.89 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"translate": [
+					{ "time": 0.1 },
+					{ "time": 0.2, "x": 34.55 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": -134.32 },
+					{ "time": 0.2, "x": 46.27 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.75, "y": 1.1 },
+					{ "time": 0.2, "x": 1.1, "y": 0.9 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"fool_face_X": {
+				"translate": [
+					{ "x": 3.16, "y": -0.35, "time": 0.0 }
+				]
+			}
+		}
+	},
+	"touch_cool_End": {
+		"slots": {
+			"fool_smoke": {
+				"attachment": [
+					{ "name": "fool_smoke", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_R" }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_RA" }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_LA" }
+				]
+			},
+			"fool_sunglasses": {
+				"attachment": [
+					{ "name": "fool_sunglasses", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_mouth_cool": {
+				"attachment": [
+					{ "name": "fool_mouth_cool", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_L" }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_mouth_A" }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_R" }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_L" }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": 208.89 },
+					{ "time": 0.2, "x": -18.23 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.95, "y": 1.05 },
+					{ "time": 0.2, "x": 1.05, "y": 0.95 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"touch_cool_Standby": {
+		"slots": {
+			"fool_smoke": {
+				"attachment": [
+					{ "name": "fool_smoke", "time": 0.0 }
+				]
+			},
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_sunglasses": {
+				"attachment": [
+					{ "name": "fool_sunglasses", "time": 0.0 }
+				]
+			},
+			"fool_mouth_cool": {
+				"attachment": [
+					{ "name": "fool_mouth_cool", "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"fool_sunglasses": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.0667, "x": 27.95 },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"touch_cool_Start": {
+		"slots": {
+			"fool_smoke": {
+				"attachment": [
+					{ "time": 0.5, "name": "fool_smoke" }
+				]
+			},
+			"fool_eye_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_sunglasses": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_sunglasses" }
+				]
+			},
+			"fool_mouth_cool": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_mouth_cool" }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": 199.51 },
+					{ "time": 0.2, "x": -30.12 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_smoke": {
+				"translate": [
+					{ "x": 255.15, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.5, "x": 255.15 },
+					{ "time": 0.8333, "x": 0.71 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.75, "y": 1.1 },
+					{ "time": 0.2, "x": 1.1, "y": 0.9 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"fool_hat_Y": {
+				"rotate": [
+					{ "time": 0.5, "angle": 0.0 },
+					{ "time": 0.6667, "angle": 10.8 },
+					{ "time": 0.8333, "angle": 0.0 }
+				],
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.6667, "x": 75.95, "y": 17.62 },
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	},
+	"touch_error_End": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_R" }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_RA" }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_LA" }
+				]
+			},
+			"fool_face_error": {
+				"attachment": [
+					{ "name": "fool_face_error", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_L" }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_mouth_A" }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_R" }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_L" }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": -134.32 },
+					{ "time": 0.2, "x": 46.27 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.95, "y": 1.05 },
+					{ "time": 0.2, "x": 1.05, "y": 0.95 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"touch_error_Standby": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_face_error": {
+				"attachment": [
+					{ "name": "fool_face_error", "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1667, "y": 201.65, "curve": "stepped" },
+					{ "time": 0.1759, "y": -130.94 },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"touch_error_Start": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_face_error": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_face_error" }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "y": 249.12 },
+					{ "time": 0.2, "y": -55.08 },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.5 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 1.1, "y": 0.9 },
+					{ "time": 0.2, "x": 0.75, "y": 1.1 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"touch_silly_End": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_R" }
+				]
+			},
+			"fool_face_sily": {
+				"attachment": [
+					{ "name": "fool_face_sily", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_RA" }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_LA" }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_L" }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_mouth_A" }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_R" }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_L" }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": -134.32 },
+					{ "time": 0.2, "x": 46.27 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.95, "y": 1.05 },
+					{ "time": 0.2, "x": 1.05, "y": 0.95 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"touch_silly_Standby": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_face_sily": {
+				"attachment": [
+					{ "name": "fool_face_sily", "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"touch_silly_Start": {
+		"slots": {
+			"fool_eye_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_face_sily": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_face_sily" }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": -134.32 },
+					{ "time": 0.2, "x": 46.27 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.75, "y": 1.1 },
+					{ "time": 0.2, "x": 1.1, "y": 0.9 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			}
+		}
+	},
+	"touch_water_End": {
+		"slots": {
+			"fool_face_water": {
+				"attachment": [
+					{ "name": "fool_face_water", "time": 0.0 },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_R" }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_RA" }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyewhite_LA" }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_L" }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_mouth_A" }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eyebrow_R" }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 },
+					{ "time": 0.1, "name": "fool_eye_L" }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": -134.32 },
+					{ "time": 0.2, "x": 46.27 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.95, "y": 1.05 },
+					{ "time": 0.2, "x": 1.05, "y": 0.95 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"fool_face_X": {
+				"translate": [
+					{ "x": 3.16, "y": -0.35, "time": 0.0 }
+				]
+			}
+		}
+	},
+	"touch_water_Standby": {
+		"slots": {
+			"fool_water_7": {
+				"attachment": [
+					{ "name": "fool_water_7", "time": 0.0 }
+				]
+			},
+			"fool_face_water": {
+				"attachment": [
+					{ "name": "fool_face_water", "time": 0.0 }
+				]
+			},
+			"fool_eye_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_water_6": {
+				"attachment": [
+					{ "name": "fool_water_6", "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_water_3": {
+				"attachment": [
+					{ "name": "fool_water_3", "time": 0.0 }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "name": null, "time": 0.0 }
+				]
+			}
+		},
+		"bones": {
+			"fool_water_3": {
+				"translate": [
+					{ "x": -135.87, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1333, "x": 85.75 },
+					{ "time": 0.2667, "x": -135.87 }
+				]
+			},
+			"fool_water_6": {
+				"translate": [
+					{ "x": -46.15, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.1, "x": 224.03 },
+					{ "time": 0.2333, "x": -46.15 }
+				]
+			},
+			"fool_water_7": {
+				"translate": [
+					{ "x": 149.65, "time": 0.0 },
+					{ "time": 0.1333, "x": -79.17, "curve": "stepped" },
+					{ "time": 0.2667, "x": 149.65 }
+				]
+			},
+			"fool_face_X": {
+				"translate": [
+					{ "y": 8.73, "time": 0.0 },
+					{ "time": 0.0333, "y": -3.83 },
+					{ "time": 0.0667, "y": 8.73 },
+					{ "time": 0.1, "y": -3.83 },
+					{ "time": 0.1333, "y": 8.73 },
+					{ "time": 0.1667, "y": -3.83 },
+					{ "time": 0.2, "y": 8.73 },
+					{ "time": 0.2333, "y": -3.83 },
+					{ "time": 0.2667, "y": 8.73 }
+				]
+			},
+			"fool_water_2": {
+				"translate": [
+					{ "x": -192.69, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0333, "x": 115.74 },
+					{ "time": 0.1667, "x": -192.69 }
+				]
+			},
+			"fool_water_5": {
+				"translate": [
+					{ "x": -61.42, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.0667, "x": 216.33 },
+					{ "time": 0.2, "x": -61.42 }
+				]
+			}
+		}
+	},
+	"touch_water_Start": {
+		"slots": {
+			"fool_face_water": {
+				"attachment": [
+					{ "time": 0.1, "name": "fool_face_water" }
+				]
+			},
+			"fool_eye_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_RA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyewhite_LA": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_mouth_A": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eyebrow_R": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"fool_eye_L": {
+				"attachment": [
+					{ "time": 0.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"fool_face_Y": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.1, "x": -134.32 },
+					{ "time": 0.2, "x": 46.27 },
+					{ "time": 0.3333 }
+				]
+			},
+			"fool_head": {
+				"scale": [
+					{ "time": 0.0, "x": 1.0, "y": 1.0 },
+					{ "time": 0.1, "x": 0.75, "y": 1.1 },
+					{ "time": 0.2, "x": 1.1, "y": 0.9 },
+					{ "time": 0.3333, "x": 1.0, "y": 1.0 }
+				]
+			},
+			"fool_face_X": {
+				"translate": [
+					{ "x": 3.16, "y": -0.35, "curve": "stepped", "time": 0.0 },
+					{ "time": 0.2, "x": 3.16, "y": -0.35 },
+					{ "time": 0.2333, "y": -3.83 },
+					{ "time": 0.2667, "y": 8.73 },
+					{ "time": 0.3, "y": -3.83 },
+					{ "time": 0.3333, "y": 8.73 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"fool_hairback": {
+			"fool_hairback": { "x": 254.63, "y": -13.49, "rotation": -96.22, "width": 389, "height": 305 }
+		},
+		"fool_KSF": {
+			"fool_KSF": { "x": 82.4, "y": 21.26, "rotation": -83.91, "width": 297, "height": 220 }
+		},
+		"fool_arm_L2": {
+			"fool_arm_L2": {
+				"type": "mesh",
+				"uvs": [ 0, 0.33927, 0.05509, 0.46732, 0.12442, 0.64125, 0.34309, 0.81326, 0.42664, 0.79415, 0.48353, 0.89736, 0.5102, 0.99483, 0.56175, 0.99674, 0.64353, 0.90118, 0.65775, 0.99292, 0.78575, 0.99292, 0.85864, 0.85149, 0.9422, 0.8706, 1, 0.8209, 1, 0.668, 0.88886, 0.53804, 0.88531, 0.49217, 0.94753, 0.43674, 0.83375, 0.23224, 0.78931, 0.24561, 0.72709, 0.37176, 0.53331, 0.26664, 0.52264, 0.21121, 0.3982, 0.13285, 0.3182, 0.06596, 0.18309, 0.0736, 0.08531, 0, 0.02486, 0.01053, 0, 0.08507, 0, 0.22841, 0.13072, 0.41384, 0.13665, 0.22749, 0.32924, 0.51577 ],
+				"triangles": [ 8, 7, 5, 7, 6, 5, 11, 10, 8, 10, 9, 8, 15, 11, 8, 8, 5, 4, 12, 11, 13, 20, 15, 8, 13, 11, 14, 15, 20, 16, 4, 20, 8, 11, 15, 14, 4, 3, 32, 3, 2, 32, 20, 32, 21, 20, 4, 32, 2, 30, 32, 30, 31, 32, 32, 31, 23, 24, 23, 31, 21, 23, 22, 21, 32, 23, 24, 31, 25, 16, 20, 17, 18, 17, 20, 18, 20, 19, 28, 25, 31, 28, 27, 26, 25, 28, 26, 2, 1, 30, 30, 0, 31, 0, 29, 31, 1, 0, 30, 31, 29, 28 ],
+				"vertices": [ -5.79, -82.82, 33.8, -93.46, 134.96, -118.02, 220.31, -118.09, 238.26, -98.04, 270.57, -111.88, 294.2, -129.99, 307.65, -120.86, 311.93, -83.06, 331.4, -102.12, 363.96, -78.33, 358.05, -31.33, 382.61, -20.32, 388.72, 2.18, 362.29, 38.35, 311.56, 48.45, 302.73, 58.64, 308.97, 83.31, 244.69, 110.55, 235.69, 99.13, 241.67, 57.72, 174.22, 46.58, 161.92, 57.72, 116.72, 53.13, 84.81, 54.09, 51.77, 27.17, 14.18, 26.42, 0.62, 12.69, -60.7, -34.81, -22.5, -59.77, 65.59, -64.27, 45.05, -21.36, 155.24, -48.2 ],
+				"hull": 30
+			}
+		},
+		"fool_ear_L": {
+			"fool_ear_L": { "x": 31.16, "y": 0.55, "rotation": 3.69, "width": 124, "height": 161 }
+		},
+		"fool_ear_R": {
+			"fool_ear_R": { "x": 45.02, "y": -1.86, "rotation": 174.54, "width": 156, "height": 134 }
+		},
+		"fool_nest": {
+			"fool_nest": { "x": 36.2, "y": 20, "rotation": -98.66, "width": 162, "height": 196 }
+		},
+		"fool_mouth_A": {
+			"fool_mouth_A": { "x": -0.41, "y": 0.4, "rotation": -91.42, "width": 41, "height": 30 }
+		},
+		"fool_horsetail": {
+			"fool_horsetail": { "x": 151.05, "y": -22.6, "rotation": 10.16, "width": 379, "height": 327 }
+		},
+		"fool_hairred": {
+			"fool_hairred": {
+				"type": "mesh",
+				"uvs": [ 0, 0.62722, 0.16232, 0.87068, 0.34147, 1, 0.5064, 0.86699, 0.67418, 0.70838, 0.84479, 0.44279, 0.99835, 0.01859, 0.98271, 0, 0.79361, 0.23622, 0.5974, 0.42435, 0.43389, 0.54607, 0.32299, 0.61247, 0.16943, 0.59772, 0.0173, 0.56083 ],
+				"triangles": [ 4, 8, 5, 5, 7, 6, 5, 8, 7, 3, 9, 4, 4, 9, 8, 2, 10, 3, 2, 11, 10, 3, 10, 9, 2, 1, 11, 1, 12, 11, 0, 13, 1, 1, 13, 12 ],
+				"vertices": [ 1, 81, 88.97, 2.57, 1, 1, 81, 39, 15.28, 1, 2, 81, -12.14, 15.08, 0.16768, 80, 61.2, 19.16, 0.83232, 2, 80, 13.75, 17.15, 0.97261, 79, 94.08, 14.65, 0.02739, 1, 79, 45.12, 18.36, 1, 2, 79, -9.24, 12.06, 0.08959, 78, 52.51, 13.53, 0.91041, 1, 78, -7.82, 0.69, 1, 1, 78, -5.41, -3.38, 1, 2, 79, -5.44, -13.7, 0.1825, 78, 51.58, -12.48, 0.8175, 2, 80, -22.46, -21.79, 0.00202, 79, 51.94, -17.78, 0.99798, 3, 81, -23.52, -38.13, 7.0E-5, 80, 24.31, -20.84, 0.98777, 79, 98.22, -24.57, 0.01216, 2, 81, 3.91, -23.07, 0.39867, 80, 55.59, -21.85, 0.60133, 1, 81, 44.98, -13.1, 1, 1, 81, 86.3, -5.5, 1 ],
+				"hull": 14
+			}
+		},
+		"fool_face_anger": {
+			"fool_face_anger": { "x": 2.2, "y": -4.11, "rotation": -92.5, "width": 201, "height": 119 }
+		},
+		"fool_neck": {
+			"fool_neck": {
+				"type": "mesh",
+				"uvs": [ 0, 0.76572, 0.11101, 0.90974, 0.37723, 0.99561, 0.70489, 0.97899, 0.89739, 0.88482, 1, 0.74356, 0.8892, 0.55521, 0.87691, 0.30039, 0.7909, 0.06773, 0.61479, 0, 0.2134, 0, 0.01681, 0.12867, 0.0209, 0.4001, 0.06186, 0.51921, 0.06596, 0.69647, 0.36896, 0.80222, 0.64343, 0.78606, 0.36014, 0.55294, 0.58883, 0.5414, 0.31577, 0.31751, 0.55811, 0.30366 ],
+				"triangles": [ 9, 19, 10, 20, 9, 8, 20, 8, 7, 19, 11, 10, 9, 20, 19, 12, 11, 19, 13, 12, 19, 18, 20, 7, 17, 19, 20, 17, 20, 18, 13, 19, 17, 18, 7, 6, 14, 13, 17, 16, 18, 6, 15, 17, 18, 15, 18, 16, 14, 17, 15, 16, 6, 5, 1, 14, 15, 2, 15, 16, 1, 15, 2, 0, 14, 1, 2, 16, 3, 3, 16, 4, 4, 16, 5 ],
+				"vertices": [ 1, 4, 303.92, 48.14, 1, 1, 4, 283.23, 39.11, 1, 1, 4, 269.59, 14.97, 1, 1, 4, 269.77, -15.92, 1, 1, 4, 281.58, -34.87, 1, 1, 4, 300.5, -45.85, 1, 2, 4, 327.34, -37.27, 0.33, 5, 50.49, -40.14, 0.67, 1, 5, 85.85, -42.46, 1, 1, 5, 118.83, -37.58, 1, 1, 5, 129.82, -22.03, 1, 1, 5, 133.51, 15.52, 1, 1, 5, 117.53, 35.66, 1, 1, 5, 79.94, 38.98, 1, 2, 4, 337.7, 39.97, 0.12, 5, 63.09, 36.77, 0.88, 2, 4, 313.09, 41.29, 0.45, 5, 38.53, 38.8, 0.55, 2, 4, 296.46, 13.89, 0.27, 5, 21.11, 11.89, 0.73, 2, 4, 296.92, -12.01, 0.33, 5, 20.82, -14, 0.67, 1, 5, 55.67, 9.32, 1, 1, 5, 55.17, -12.23, 1, 1, 5, 88.65, 10.27, 1, 1, 5, 88.34, -12.59, 1 ],
+				"hull": 15
+			}
+		},
+		"fool_head": {
+			"fool_head": { "x": 190.86, "y": 10.56, "rotation": -96.22, "width": 281, "height": 393 }
+		},
+		"fool_hair_A": {
+			"fool_hair_A": { "x": 89.15, "y": -16.56, "rotation": 46.64, "width": 181, "height": 226 }
+		},
+		"fool_hair_B": {
+			"fool_hair_B": { "x": 92.26, "y": -4.62, "rotation": 84.02, "width": 95, "height": 223 }
+		},
+		"fool_face_error": {
+			"fool_face_error": { "x": 33.97, "y": -0.95, "rotation": -92.5, "width": 74, "height": 111 }
+		},
+		"fool_arm_L1": {
+			"fool_arm_L1": { "x": 108.52, "y": -0.67, "rotation": -91.59, "width": 118, "height": 275 }
+		},
+		"fool_wrench": {
+			"fool_wrench": { "x": 442.29, "y": -46.63, "rotation": -174.28, "width": 1226, "height": 431 }
+		},
+		"fool_eyewhite_LA": {
+			"fool_eyewhite_LA": { "x": -4.38, "y": 5.82, "rotation": -96.22, "width": 65, "height": 79 }
+		},
+		"fool_eye_L": {
+			"fool_eye_L": { "x": -0.65, "y": 0.3, "rotation": -96.22, "width": 17, "height": 19 }
+		},
+		"fool_eyebrow_L_anger": {
+			"fool_eyebrow_L_anger": { "x": 0.46, "y": -4.95, "rotation": -92.5, "width": 94, "height": 41 }
+		},
+		"fool_eye_R": {
+			"fool_eye_R": { "x": 0.37, "y": -0.77, "rotation": -96.22, "width": 13, "height": 14 }
+		},
+		"fool_eyebrow_R_anger": {
+			"fool_eyebrow_R_anger": { "x": -15.67, "y": 19.23, "rotation": -92.5, "width": 97, "height": 57 }
+		},
+		"fool_face_water": {
+			"fool_face_water": { "x": -2.85, "y": -1.57, "rotation": -96.22, "width": 152, "height": 118 }
+		},
+		"fool_finger_L": {
+			"fool_finger_L": { "x": 41.37, "y": -0.82, "rotation": 115.14, "width": 138, "height": 109 }
+		},
+		"fool_finger_R": {
+			"fool_finger_R": { "x": 44.84, "y": -8.24, "rotation": -20.42, "width": 150, "height": 136 }
+		},
+		"fool_water_2": {
+			"fool_water_2": { "x": 11.09, "y": 0.88, "rotation": -96.22, "width": 22, "height": 79 }
+		},
+		"fool_water_3": {
+			"fool_water_3": { "x": 8.62, "y": -2.79, "rotation": -96.22, "width": 25, "height": 77 }
+		},
+		"fool_water_5": {
+			"fool_water_5": { "y": -0.13, "rotation": -96.22, "width": 21, "height": 66 }
+		},
+		"fool_water_6": {
+			"fool_water_6": { "x": 6.02, "y": 1.39, "rotation": -96.22, "width": 24, "height": 61 }
+		},
+		"fool_water_7": {
+			"fool_water_7": { "x": 4.65, "y": -0.05, "rotation": -96.22, "width": 27, "height": 73 }
+		},
+		"fool_towel_L": {
+			"fool_towel_L": {
+				"type": "mesh",
+				"uvs": [ 0.16398, 0.08515, 0.17104, 0.20794, 0.17682, 0.30833, 0.10941, 0.38887, 0.17682, 0.54648, 0.15114, 0.76161, 0.27312, 0.8709, 0.36941, 0.97674, 0.67756, 0.9917, 0.89904, 0.86515, 0.9825, 0.72594, 0.96324, 0.53727, 0.96003, 0.37161, 0.92472, 0.30028, 0.9183, 0.19214, 0.96003, 0.0863, 0.70645, 0.00692, 0.30842, 0.00922, 0.56503, 0.20318, 0.57573, 0.30481, 0.5891, 0.37671, 0.59445, 0.54544, 0.59713, 0.74293, 0.5891, 0.86757 ],
+				"triangles": [ 22, 21, 10, 5, 4, 22, 9, 22, 10, 22, 6, 5, 23, 22, 9, 23, 6, 22, 7, 6, 23, 8, 23, 9, 7, 23, 8, 20, 13, 12, 20, 12, 11, 21, 20, 11, 2, 20, 3, 20, 4, 3, 4, 20, 21, 21, 11, 10, 4, 21, 22, 15, 18, 16, 18, 17, 16, 14, 18, 15, 0, 17, 18, 1, 0, 18, 18, 14, 13, 19, 18, 13, 19, 2, 1, 19, 1, 18, 20, 19, 13, 19, 20, 2 ],
+				"vertices": [ 1, 22, 7.62, -34.49, 1, 2, 22, 35.36, -33.36, 0.99865, 23, -34.81, -33.63, 0.00135, 2, 22, 58.03, -32.43, 0.83942, 23, -12.13, -32.78, 0.16058, 3, 22, 76.34, -37.51, 0.47083, 23, 6.15, -37.94, 0.52916, 24, -57.48, -36.6, 1.0E-5, 3, 22, 111.84, -31.33, 0.02958, 23, 41.68, -31.88, 0.79949, 24, -21.88, -30.96, 0.17092, 2, 23, 90.33, -33.14, 4.3E-4, 24, 26.75, -32.81, 0.99957, 1, 24, 51.4, -22.8, 1, 1, 24, 75.28, -14.89, 1, 1, 24, 78.54, 10.09, 1, 2, 23, 112.71, 27.82, 0.01518, 24, 49.85, 27.89, 0.98482, 2, 23, 81.14, 34.05, 0.32985, 24, 18.36, 34.49, 0.67015, 2, 23, 38.53, 31.78, 0.99841, 24, -24.28, 32.73, 0.00159, 2, 22, 71.03, 31.29, 0.28185, 23, 1.1, 30.89, 0.71815, 2, 22, 54.98, 28.1, 0.72498, 23, -14.97, 27.76, 0.27502, 2, 22, 30.55, 27.09, 0.99203, 23, -39.4, 26.83, 0.00797, 1, 22, 6.57, 29.98, 1, 1, 22, -10.95, 9.08, 1, 1, 22, -9.77, -23.15, 1, 1, 22, 33.63, -1.47, 1, 1, 22, 56.58, -0.14, 1, 1, 23, 2.76, 0.87, 1, 1, 23, 40.88, 1.94, 1, 2, 23, 85.5, 2.91, 0.01211, 24, 22.35, 3.3, 0.98789, 2, 23, 113.67, 2.73, 4.0E-5, 24, 50.52, 2.79, 0.99996 ],
+				"hull": 18
+			}
+		},
+		"fool_mouth_cool": {
+			"fool_mouth_cool": { "x": 3.77, "y": -7.3, "rotation": -87.7, "width": 57, "height": 14 }
+		},
+		"fool_face_X_mask": {
+			"fool_face_X_mask": {
+				"type": "clipping",
+				"end": "fool_mouth_cool",
+				"vertexCount": 29,
+				"vertices": [ -41.06, 87.92, -55.3, 72.05, -69.87, 49.06, -77.67, 22.66, -77.5, -8.63, -67.68, -37.41, -54.79, -58.47, -33.57, -72.85, -9.01, -89.38, 14.75, -100.91, 32.33, -107.74, 55.34, -113.82, 71.39, -118.25, 101.32, -122.41, 121.29, -123.69, 139.04, -124.74, 149.98, -98.23, 156.43, -63.63, 161.07, -29.29, 155.67, 19.55, 151.02, 62.95, 136.96, 102.02, 131.91, 125.36, 125.64, 145.7, 98.32, 145.1, 66.11, 140.57, 32.48, 131.28, 6.11, 118.97, -17.95, 107.29 ]
+			}
+		},
+		"fool_towel_R": {
+			"fool_towel_R": {
+				"type": "mesh",
+				"uvs": [ 0, 0.14126, 0.05819, 0.26963, 0.13126, 0.33767, 0.0914, 0.49428, 0.07148, 0.64832, 0.201, 0.77155, 0.22889, 0.8625, 0.25414, 0.94485, 0.44676, 1, 0.69475, 0.97477, 0.93828, 0.94998, 0.93496, 0.90506, 1, 0.82547, 0.99142, 0.76, 0.91836, 0.67142, 0.85858, 0.53022, 0.84197, 0.38773, 0.83201, 0.28889, 0.73902, 0.15281, 0.62278, 0.04242, 0.37702, 0.03086, 0.14454, 0.07323, 0.62688, 0.91885, 0.60371, 0.82544, 0.56729, 0.71924, 0.49778, 0.59, 0.48122, 0.43774, 0.45474, 0.31618, 0.40508, 0.19206 ],
+				"triangles": [ 24, 25, 14, 24, 14, 13, 5, 4, 24, 23, 24, 13, 5, 24, 23, 23, 13, 12, 6, 5, 23, 11, 23, 12, 22, 23, 11, 6, 23, 22, 7, 6, 22, 9, 22, 11, 10, 9, 11, 8, 7, 22, 8, 22, 9, 26, 27, 16, 3, 2, 26, 26, 16, 15, 25, 26, 15, 3, 26, 25, 4, 3, 25, 25, 15, 14, 4, 25, 24, 28, 20, 19, 28, 19, 18, 21, 20, 28, 0, 21, 28, 1, 0, 28, 28, 18, 17, 27, 28, 17, 1, 28, 27, 2, 1, 27, 27, 17, 16, 2, 27, 26 ],
+				"vertices": [ 1, 19, -1.04, -40.69, 1, 2, 19, 35.64, -38.45, 0.99488, 20, -38.13, -38.74, 0.00512, 2, 19, 55.6, -32.69, 0.85711, 20, -18.15, -33.04, 0.14289, 3, 19, 99, -41.96, 0.06545, 20, 25.22, -42.46, 0.91556, 21, -50.77, -40.82, 0.01899, 2, 20, 68.12, -49.63, 0.58398, 21, -8.12, -49.36, 0.41602, 2, 20, 104.27, -39.62, 0.05602, 21, 28.33, -40.51, 0.94398, 1, 21, 54.15, -41.28, 1, 1, 21, 77.52, -41.97, 1, 1, 21, 96, -23.49, 1, 1, 21, 92.93, 4.29, 1, 1, 21, 89.93, 31.58, 1, 1, 21, 77.34, 33.08, 1, 1, 21, 56.19, 43.4, 1, 2, 20, 110.98, 46.33, 0.01587, 21, 37.79, 45.19, 0.98413, 2, 20, 85.25, 41.31, 0.22717, 21, 11.91, 40.99, 0.77283, 3, 19, 118.45, 40, 0.00679, 20, 44.94, 39.43, 0.91435, 21, -28.44, 40.4, 0.07886, 2, 19, 78.32, 42.71, 0.42852, 20, 4.82, 42.28, 0.57148, 2, 19, 50.5, 44.76, 0.89174, 20, -22.99, 44.42, 0.10826, 1, 19, 11.23, 38.99, 1, 1, 19, -21.12, 29.89, 1, 1, 19, -27.37, 3.64, 1, 1, 19, -18.34, -22.88, 1, 1, 21, 76.25, -0.7, 1, 1, 21, 49.82, 0.67, 1, 2, 20, 94.22, 1.74, 7.3E-4, 21, 19.62, 1.15, 0.99927, 1, 20, 57.15, -1.58, 1, 1, 20, 14.29, 1.59, 1, 1, 19, 53.53, 3.03, 1, 1, 19, 18.15, 1.58, 1 ],
+				"hull": 22
+			}
+		},
+		"fool_hammer": {
+			"fool_hammer": { "x": 78.69, "y": 10, "rotation": -98.58, "width": 173, "height": 200 }
+		},
+		"fool_hat": {
+			"fool_hat": { "x": 43.56, "y": -16.82, "rotation": -96.22, "width": 409, "height": 284 }
+		},
+		"fool_eyebrow_L": {
+			"fool_eyebrow_L": { "x": -9.29, "y": 2.47, "rotation": -96.22, "width": 63, "height": 27 }
+		},
+		"fool_leg_R": {
+			"fool_leg_R": { "x": 226.79, "y": -0.01, "rotation": 96.57, "width": 271, "height": 697 }
+		},
+		"fool_hair_C": {
+			"fool_hair_C": { "x": 162.81, "y": 2.78, "rotation": 95.27, "width": 80, "height": 353 }
+		},
+		"fool_smoke": {
+			"fool_smoke": { "x": -5.83, "y": -4.21, "rotation": -87.7, "width": 100, "height": 71 }
+		},
+		"fool_sunglasses": {
+			"fool_sunglasses": { "x": -22.86, "y": -1.84, "rotation": -92.5, "width": 290, "height": 91 }
+		},
+		"fool_leg_L": {
+			"fool_leg_L": { "x": 272.07, "y": -23.55, "rotation": 75.81, "width": 325, "height": 705 }
+		},
+		"fool_body": {
+			"fool_body": {
+				"type": "mesh",
+				"uvs": [ 0.04414, 0.91317, 0.14707, 0.95235, 0.28056, 0.97985, 0.39595, 0.98569, 0.51778, 0.98986, 0.65252, 0.98069, 0.79682, 0.98069, 0.91261, 0.95485, 1, 0.9215, 0.96408, 0.79814, 0.96247, 0.61309, 0.90705, 0.55343, 0.96021, 0.52588, 0.95054, 0.3681, 0.94813, 0.09763, 0.82249, 0.06883, 0.67994, 0.06257, 0.85632, 0.03126, 0.81766, 0.01123, 0.66062, 0, 0.47941, 0, 0.29821, 0, 0.16291, 0.0225, 0.06385, 0.0538, 0.2523, 0.09512, 0.17499, 0.10264, 0.01553, 0.14521, 0, 0.21158, 0.01794, 0.29548, 0.04935, 0.36435, 0.0421, 0.45952, 0.02036, 0.52213, 0.11942, 0.58474, 0.15566, 0.57597, 0.18707, 0.62731, 0.11217, 0.66363, 0.07835, 0.76255, 0.04935, 0.79511, 0.05454, 0.85271, 0.20197, 0.86898, 0.35615, 0.89383, 0.50644, 0.89719, 0.62953, 0.89383, 0.77075, 0.88577, 0.88606, 0.86591, 0.62823, 0.81526, 0.62046, 0.7367, 0.51681, 0.81325, 0.22788, 0.78303, 0.75261, 0.80653, 0.87904, 0.78102, 0.38465, 0.80183 ],
+				"triangles": [ 29, 24, 13, 27, 25, 24, 13, 24, 16, 16, 24, 20, 24, 21, 20, 20, 19, 16, 30, 29, 33, 13, 33, 29, 13, 15, 14, 16, 15, 13, 24, 29, 28, 24, 28, 27, 25, 27, 26, 23, 22, 24, 24, 22, 21, 16, 18, 17, 16, 19, 18, 42, 47, 45, 45, 47, 46, 47, 51, 46, 46, 51, 34, 46, 11, 10, 46, 34, 11, 34, 33, 11, 32, 31, 33, 11, 33, 13, 31, 30, 33, 11, 13, 12, 4, 42, 5, 7, 6, 43, 6, 5, 43, 5, 42, 43, 43, 44, 7, 7, 44, 8, 44, 9, 8, 42, 45, 43, 45, 49, 43, 43, 49, 44, 49, 50, 44, 49, 45, 46, 44, 50, 9, 49, 46, 50, 50, 46, 10, 50, 10, 9, 3, 41, 4, 4, 41, 42, 2, 40, 3, 3, 40, 41, 1, 39, 2, 2, 39, 40, 1, 0, 39, 0, 38, 39, 42, 41, 47, 47, 41, 51, 41, 40, 51, 40, 39, 51, 39, 48, 51, 48, 39, 37, 48, 37, 36, 37, 39, 38, 36, 35, 48, 35, 34, 48, 51, 48, 34 ],
+				"vertices": [ 3, 27, 66.52, -123.53, 0.99958, 25, 20.6, -294.53, 1.3E-4, 3, -89.41, 222.86, 3.0E-4, 2, 27, 92.54, -77.94, 0.99981, 25, 61.09, -261.13, 1.9E-4, 3, 27, 107.92, -20.94, 0.99966, 25, 95.69, -213.29, 3.4E-4, 3, -148.87, 129.58, 1.0E-5, 3, 27, 107.09, 26.7, 0.9424, 25, 111.8, -168.45, 0.05493, 3, -156.76, 82.58, 0.00267, 3, 27, 104.64, 76.82, 0.6623, 25, 127.28, -120.72, 0.31677, 3, -163.51, 32.86, 0.02093, 3, 27, 91.08, 131, 0.25595, 25, 133.81, -65.25, 0.72597, 3, -160.08, -22.89, 0.01807, 2, 27, 84.29, 189.92, 0.00719, 25, 148.35, -7.75, 0.99281, 1, 25, 140.15, 43.41, 1, 1, 25, 123.32, 84.72, 1, 2, 25, 24.86, 94.39, 0.98144, 3, -24.5, -160.62, 0.01856, 3, 25, -117.57, 129.72, 0.39214, 3, 121.94, -170.09, 0.56479, 4, -128.92, -170.09, 0.04307, 3, 25, -169.02, 119.24, 0.17417, 3, 170.71, -150.63, 0.64324, 4, -80.15, -150.63, 0.18259, 3, 25, -184.84, 145.77, 0.10506, 3, 190.99, -173.93, 0.59143, 4, -59.86, -173.93, 0.30351, 3, 25, -307.12, 172.6, 0.0096, 3, 316.09, -178.6, 0.17682, 4, 65.23, -178.6, 0.81357, 1, 4, 279.28, -192.41, 1, 1, 4, 305.62, -142.48, 1, 1, 4, 314.62, -84.37, 1, 1, 4, 334.38, -158.4, 1, 1, 4, 351.33, -143.65, 1, 1, 4, 364.66, -79.87, 1, 1, 4, 369.8, -5.57, 1, 1, 4, 374.94, 68.72, 1, 1, 4, 360.98, 125.43, 1, 1, 4, 339.03, 167.76, 1, 1, 4, 300.99, 92.75, 1, 1, 4, 297.24, 124.86, 1, 2, 3, 518.94, 192.57, 5.0E-5, 4, 268.08, 192.57, 0.99995, 2, 3, 466.88, 202.57, 0.00474, 4, 216.02, 202.57, 0.99526, 2, 3, 399.99, 199.81, 0.04088, 4, 149.14, 199.81, 0.95912, 3, 27, -366.08, -171.23, 0.00102, 3, 344.62, 190.7, 0.14148, 4, 93.76, 190.7, 0.85751, 3, 27, -290.77, -165.55, 0.01473, 3, 269.54, 198.88, 0.40217, 4, 18.68, 198.88, 0.58311, 3, 27, -240.42, -168.74, 0.03101, 3, 220.62, 211.22, 0.53044, 4, -30.24, 211.22, 0.43855, 3, 27, -195.76, -122.61, 0.06735, 3, 168.28, 174.03, 0.63418, 4, -82.58, 174.03, 0.29847, 3, 27, -204.37, -108.61, 0.08552, 3, 174.19, 158.69, 0.66032, 4, -76.67, 158.69, 0.25417, 3, 27, -165.4, -91.13, 0.26086, 3, 132.68, 148.62, 0.67229, 4, -118.18, 148.62, 0.06685, 3, 27, -133.27, -118.41, 0.4563, 3, 106.08, 181.32, 0.52925, 4, -144.78, 181.32, 0.01445, 4, 27, -53.75, -123.24, 0.78541, 25, -91.75, -251.62, 1.0E-5, 3, 28.78, 200.6, 0.21455, 4, -222.08, 200.6, 3.0E-5, 3, 27, -26.74, -132.12, 0.87937, 25, -69.64, -269.5, 2.0E-5, 3, 3.84, 214.27, 0.12061, 3, 27, 18.4, -124.77, 0.97038, 25, -24.83, -278.64, 7.0E-5, 3, -41.88, 215.29, 0.02955, 3, 27, 24.28, -63.1, 0.99194, 25, 2.53, -223.05, 4.0E-5, 3, -58.93, 155.73, 0.00802, 3, 27, 36.6, 2.11, 0.99673, 25, 37.17, -166.45, 0.00177, 3, -82.96, 93.88, 0.00151, 3, 27, 32.17, 63.78, 0.61498, 25, 54.89, -107.22, 0.24125, 3, -89.88, 32.44, 0.14377, 3, 27, 23.73, 113.73, 0.22468, 25, 64.72, -57.52, 0.65116, 3, -90.71, -18.21, 0.12417, 1, 25, 72.75, 0.32, 1, 1, 25, 69.1, 50.13, 1, 3, 27, -38.1, 106.07, 0.04658, 25, 4.18, -42.76, 0.46623, 3, -28.52, -21.98, 0.48719, 2, 25, -57, -30.59, 0.15336, 3, 33.85, -23.09, 0.84664, 3, 27, -34.44, 60.39, 0.26615, 25, -8.59, -86.77, 0.05612, 3, -23.77, 23.6, 0.67773, 2, 27, -44.65, -60.32, 0.78376, 3, 8.33, 140.41, 0.21624, 1, 25, 10, 8.49, 1, 2, 25, 3.13, 63.83, 0.95823, 3, -8.54, -126.69, 0.04177, 2, 27, -37.22, 5.39, 0.66467, 3, -10.99, 77.16, 0.33533 ],
+				"hull": 39
+			}
+		},
+		"fool_arm_R2": {
+			"fool_arm_R2": { "x": 98.71, "y": -13.53, "rotation": 96.79, "width": 140, "height": 316 }
+		},
+		"fool_eyewhite_RA": {
+			"fool_eyewhite_RA": { "x": 2.3, "y": -0.56, "rotation": -96.22, "width": 70, "height": 71 }
+		},
+		"fool_bag": {
+			"fool_bag": { "x": 20.91, "y": 10.05, "rotation": -93.96, "width": 110, "height": 242 }
+		},
+		"fool_eyebrow_R": {
+			"fool_eyebrow_R": { "x": -5.41, "y": 4.43, "rotation": -96.22, "width": 63, "height": 20 }
+		},
+		"fool_logo": {
+			"fool_logo": { "x": 2.38, "y": -2.44, "rotation": -96.22, "width": 250, "height": 125 }
+		},
+		"fool_face_sily": {
+			"fool_face_sily": { "x": 13.31, "y": -0.93, "rotation": -94.8, "width": 116, "height": 108 }
+		},
+		"fool_arm_R1": {
+			"fool_arm_R1": { "x": 320.82, "y": -73.19, "rotation": 96.79, "width": 235, "height": 189 }
+		},
+		"fool_bird": {
+			"fool_bird": { "x": 50.91, "y": 1, "rotation": -131.66, "width": 130, "height": 141 }
+		},
+		"fool_hand_L": {
+			"fool_hand_L": { "x": 64.93, "y": 16.67, "rotation": -106.66, "width": 149, "height": 249 }
+		},
+		"fool_oil": {
+			"fool_oil": {
+				"type": "mesh",
+				"uvs": [ 0.29207, 0.01233, 0.52036, 0.00929, 0.68153, 0.16185, 0.844, 0.31564, 0.94595, 0.58721, 0.91375, 0.85877, 0.69912, 0.97736, 0.43619, 0.9997, 0.09636, 0.86679, 0.0588, 0.62874, 0.15627, 0.38267, 0.25197, 0.17127 ],
+				"triangles": [ 4, 9, 10, 5, 9, 4, 8, 9, 5, 6, 8, 5, 7, 8, 6, 11, 0, 1, 2, 11, 1, 11, 2, 3, 10, 11, 3, 10, 3, 4 ],
+				"vertices": [ 1, 15, -7.65, -5.09, 1, 1, 15, -7.55, 4.28, 1, 1, 15, 12.29, 9.87, 1, 1, 15, 32.29, 15.51, 1, 2, 15, 67.22, 17.9, 0.08, 16, 9.1, 18.29, 0.92, 2, 15, 101.86, 14.79, 4.0E-5, 16, 43.83, 16.45, 0.99996, 1, 16, 58.88, 7.43, 1, 1, 16, 61.58, -3.39, 1, 1, 16, 44.36, -17.07, 1, 2, 15, 70.66, -18.7, 0.0029, 16, 13.87, -18.16, 0.9971, 2, 15, 39.41, -13.09, 0.97576, 16, -17.56, -13.7, 0.02424, 1, 15, 12.59, -7.78, 1 ],
+				"hull": 12
+			}
+		},
+		"fool_hand_R": {
+			"fool_hand_R": { "x": 45.17, "y": 12.57, "rotation": -130.03, "width": 113, "height": 160 }
+		}
+	}
+}
+}

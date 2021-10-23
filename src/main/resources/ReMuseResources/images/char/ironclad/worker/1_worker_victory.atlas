@@ -1,0 +1,209 @@
+
+1_worker_victory.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rin-mouth
+  rotate: false
+  xy: 1488, 355
+  size: 150, 71
+  orig: 150, 71
+  offset: 0, 0
+  index: -1
+rin_arm_L
+  rotate: false
+  xy: 1324, 285
+  size: 162, 296
+  orig: 162, 296
+  offset: 0, 0
+  index: -1
+rin_arm_R
+  rotate: false
+  xy: 1312, 783
+  size: 389, 235
+  orig: 389, 235
+  offset: 0, 0
+  index: -1
+rin_bag
+  rotate: true
+  xy: 460, 58
+  size: 79, 191
+  orig: 79, 191
+  offset: 0, 0
+  index: -1
+rin_bird
+  rotate: true
+  xy: 1176, 148
+  size: 144, 143
+  orig: 144, 143
+  offset: 0, 0
+  index: -1
+rin_body
+  rotate: true
+  xy: 2, 591
+  size: 427, 660
+  orig: 443, 660
+  offset: 0, 0
+  index: -1
+rin_collar_L
+  rotate: false
+  xy: 954, 208
+  size: 97, 115
+  orig: 97, 115
+  offset: 0, 0
+  index: -1
+rin_collar_R
+  rotate: false
+  xy: 400, 15
+  size: 58, 111
+  orig: 58, 111
+  offset: 0, 0
+  index: -1
+rin_ear_L
+  rotate: false
+  xy: 954, 325
+  size: 98, 158
+  orig: 98, 158
+  offset: 0, 0
+  index: -1
+rin_ear_R
+  rotate: false
+  xy: 930, 74
+  size: 111, 132
+  orig: 111, 133
+  offset: 0, 1
+  index: -1
+rin_eye_L
+  rotate: true
+  xy: 879, 82
+  size: 65, 48
+  orig: 65, 48
+  offset: 0, 0
+  index: -1
+rin_eye_R
+  rotate: true
+  xy: 879, 18
+  size: 62, 44
+  orig: 62, 45
+  offset: 0, 1
+  index: -1
+rin_eyebrow_L
+  rotate: false
+  xy: 814, 2
+  size: 61, 52
+  orig: 61, 52
+  offset: 0, 0
+  index: -1
+rin_eyebrow_R
+  rotate: false
+  xy: 460, 16
+  size: 60, 40
+  orig: 60, 41
+  offset: 0, 1
+  index: -1
+rin_hairPonytail
+  rotate: false
+  xy: 664, 242
+  size: 288, 445
+  orig: 288, 445
+  offset: 0, 0
+  index: -1
+rin_hairRed
+  rotate: false
+  xy: 664, 149
+  size: 264, 91
+  orig: 264, 91
+  offset: 0, 0
+  index: -1
+rin_hair_1
+  rotate: false
+  xy: 400, 128
+  size: 58, 176
+  orig: 58, 177
+  offset: 0, 1
+  index: -1
+rin_hair_2
+  rotate: true
+  xy: 1312, 583
+  size: 198, 248
+  orig: 198, 248
+  offset: 0, 0
+  index: -1
+rin_hairback
+  rotate: false
+  xy: 664, 689
+  size: 415, 329
+  orig: 415, 329
+  offset: 0, 0
+  index: -1
+rin_hammer
+  rotate: true
+  xy: 664, 19
+  size: 128, 148
+  orig: 128, 148
+  offset: 0, 0
+  index: -1
+rin_hand_L
+  rotate: false
+  xy: 1562, 428
+  size: 139, 353
+  orig: 139, 353
+  offset: 0, 0
+  index: -1
+rin_hand_R
+  rotate: false
+  xy: 1081, 560
+  size: 229, 458
+  orig: 229, 494
+  offset: 0, 1
+  index: -1
+rin_happy_L
+  rotate: false
+  xy: 460, 139
+  size: 202, 450
+  orig: 202, 452
+  offset: 0, 1
+  index: -1
+rin_happy_R
+  rotate: true
+  xy: 2, 16
+  size: 288, 396
+  orig: 288, 398
+  offset: 0, 1
+  index: -1
+rin_hat
+  rotate: false
+  xy: 2, 306
+  size: 456, 283
+  orig: 456, 283
+  offset: 0, 0
+  index: -1
+rin_hat_logo
+  rotate: true
+  xy: 954, 485
+  size: 202, 100
+  orig: 202, 100
+  offset: 0, 0
+  index: -1
+rin_head
+  rotate: true
+  xy: 1056, 294
+  size: 264, 266
+  orig: 264, 266
+  offset: 0, 0
+  index: -1
+rin_neck
+  rotate: false
+  xy: 814, 56
+  size: 63, 91
+  orig: 63, 91
+  offset: 0, 0
+  index: -1
+rin_nest
+  rotate: true
+  xy: 1053, 92
+  size: 200, 121
+  orig: 200, 121
+  offset: 0, 0
+  index: -1

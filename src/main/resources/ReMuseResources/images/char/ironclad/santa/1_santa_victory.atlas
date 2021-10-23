@@ -1,0 +1,272 @@
+
+1_santa_victory.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bell
+  rotate: true
+  xy: 915, 2
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 3
+  size: 282, 238
+  orig: 282, 257
+  offset: 0, 14
+  index: -1
+bowknut
+  rotate: true
+  xy: 414, 589
+  size: 192, 341
+  orig: 192, 341
+  offset: 0, 0
+  index: -1
+box
+  rotate: false
+  xy: 2, 613
+  size: 410, 407
+  orig: 414, 407
+  offset: 3, 0
+  index: -1
+box_back
+  rotate: false
+  xy: 414, 783
+  size: 398, 237
+  orig: 398, 237
+  offset: 0, 0
+  index: -1
+chest_L
+  rotate: true
+  xy: 784, 3
+  size: 116, 129
+  orig: 116, 129
+  offset: 0, 0
+  index: -1
+eye_ball_L
+  rotate: false
+  xy: 985, 119
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+eye_highlight
+  rotate: false
+  xy: 813, 599
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+eye_line_down_L
+  rotate: true
+  xy: 954, 703
+  size: 40, 15
+  orig: 40, 15
+  offset: 0, 0
+  index: -1
+eye_line_small_L
+  rotate: true
+  xy: 286, 171
+  size: 35, 16
+  orig: 35, 16
+  offset: 0, 0
+  index: -1
+eye_line_small_R
+  rotate: false
+  xy: 757, 590
+  size: 17, 7
+  orig: 17, 7
+  offset: 0, 0
+  index: -1
+eye_line_up_L
+  rotate: true
+  xy: 915, 44
+  size: 75, 32
+  orig: 75, 33
+  offset: 0, 0
+  index: -1
+eye_line_up_R
+  rotate: true
+  xy: 286, 208
+  size: 33, 17
+  orig: 33, 17
+  offset: 0, 0
+  index: -1
+eye_whtit_L
+  rotate: false
+  xy: 931, 155
+  size: 58, 38
+  orig: 58, 38
+  offset: 0, 0
+  index: -1
+eyebrow_L
+  rotate: true
+  xy: 1000, 438
+  size: 44, 10
+  orig: 44, 11
+  offset: 0, 1
+  index: -1
+eyebrow_R
+  rotate: false
+  xy: 620, 356
+  size: 16, 17
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+finger_R
+  rotate: true
+  xy: 848, 121
+  size: 53, 81
+  orig: 53, 81
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 305, 164
+  size: 209, 313
+  orig: 209, 314
+  offset: 0, 1
+  index: -1
+hair_R_back
+  rotate: false
+  xy: 757, 599
+  size: 54, 182
+  orig: 54, 186
+  offset: 0, 4
+  index: -1
+hair_front
+  rotate: false
+  xy: 813, 610
+  size: 139, 133
+  orig: 143, 133
+  offset: 0, 0
+  index: -1
+hair_red
+  rotate: true
+  xy: 848, 176
+  size: 170, 58
+  orig: 170, 58
+  offset: 0, 0
+  index: -1
+hair_small
+  rotate: true
+  xy: 305, 591
+  size: 20, 41
+  orig: 20, 42
+  offset: 0, 1
+  index: -1
+hand_L_1
+  rotate: false
+  xy: 814, 745
+  size: 165, 275
+  orig: 170, 286
+  offset: 4, 11
+  index: -1
+hand_L_2
+  rotate: false
+  xy: 900, 350
+  size: 98, 132
+  orig: 98, 135
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 638, 348
+  size: 260, 239
+  orig: 263, 239
+  offset: 3, 0
+  index: -1
+head
+  rotate: true
+  xy: 620, 121
+  size: 225, 226
+  orig: 225, 226
+  offset: 0, 0
+  index: -1
+headwear_L
+  rotate: false
+  xy: 601, 8
+  size: 181, 111
+  orig: 181, 111
+  offset: 0, 0
+  index: -1
+headwear_R
+  rotate: true
+  xy: 908, 195
+  size: 62, 105
+  orig: 62, 105
+  offset: 0, 0
+  index: -1
+horsetail
+  rotate: true
+  xy: 286, 6
+  size: 156, 313
+  orig: 156, 324
+  offset: 0, 11
+  index: -1
+leg_L
+  rotate: false
+  xy: 2, 243
+  size: 301, 368
+  orig: 301, 368
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: false
+  xy: 305, 375
+  size: 331, 212
+  orig: 331, 213
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 991, 173
+  size: 12, 20
+  orig: 12, 21
+  offset: 0, 1
+  index: -1
+neck
+  rotate: false
+  xy: 908, 259
+  size: 87, 89
+  orig: 88, 90
+  offset: 0, 1
+  index: -1
+nose
+  rotate: false
+  xy: 348, 599
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+red_line_L
+  rotate: true
+  xy: 601, 129
+  size: 33, 17
+  orig: 33, 17
+  offset: 0, 0
+  index: -1
+red_line_R
+  rotate: false
+  xy: 908, 178
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+tie_back
+  rotate: false
+  xy: 981, 484
+  size: 40, 536
+  orig: 40, 543
+  offset: 0, 0
+  index: -1
+tie_back2
+  rotate: false
+  xy: 931, 127
+  size: 52, 26
+  orig: 52, 26
+  offset: 0, 0
+  index: -1

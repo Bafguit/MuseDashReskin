@@ -1,0 +1,153 @@
+
+elfin_devil.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 45, 6
+  size: 31, 53
+  orig: 31, 54
+  offset: 0, 0
+  index: -1
+eye_l
+  rotate: false
+  xy: 856, 5
+  size: 12, 24
+  orig: 12, 24
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: false
+  xy: 465, 4
+  size: 15, 25
+  orig: 15, 25
+  offset: 0, 0
+  index: -1
+fork
+  rotate: false
+  xy: 2, 39
+  size: 191, 94
+  orig: 191, 94
+  offset: 0, 0
+  index: -1
+hair_font
+  rotate: false
+  xy: 335, 7
+  size: 145, 127
+  orig: 145, 127
+  offset: 0, 0
+  index: -1
+hair_font_back
+  rotate: true
+  xy: 2, 3
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+hair_l
+  rotate: 180
+  xy: 841, 9
+  size: 70, 121
+  orig: 70, 121
+  offset: 0, 0
+  index: -1
+hair_r
+  rotate: false
+  xy: 769, 7
+  size: 73, 126
+  orig: 73, 126
+  offset: 0, 0
+  index: -1
+hand_l_a
+  rotate: true
+  xy: 722, 2
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+hand_l_b
+  rotate: false
+  xy: 151, 13
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+hand_r_a
+  rotate: false
+  xy: 828, 11
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+hand_r_b
+  rotate: false
+  xy: 902, 103
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 195, 18
+  size: 115, 138
+  orig: 115, 138
+  offset: 0, 0
+  index: -1
+head_shadow
+  rotate: true
+  xy: 482, 21
+  size: 112, 111
+  orig: 112, 111
+  offset: 0, 0
+  index: -1
+leg_l_a
+  rotate: true
+  xy: 686, 3
+  size: 18, 34
+  orig: 18, 34
+  offset: 0, 0
+  index: -1
+leg_l_b
+  rotate: false
+  xy: 127, 4
+  size: 22, 33
+  orig: 22, 33
+  offset: 0, 0
+  index: -1
+leg_r_a
+  rotate: true
+  xy: 182, 3
+  size: 13, 33
+  orig: 13, 33
+  offset: 0, 0
+  index: -1
+leg_r_b
+  rotate: false
+  xy: 99, 5
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 335, 4
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+wing_l
+  rotate: true
+  xy: 686, 23
+  size: 110, 81
+  orig: 110, 81
+  offset: 0, 0
+  index: -1
+wing_r
+  rotate: true
+  xy: 595, 8
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
