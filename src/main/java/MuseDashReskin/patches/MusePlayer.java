@@ -62,6 +62,7 @@ public abstract class MusePlayer extends AbstractPlayer implements AnimationStat
         AnimationState.TrackEntry e = this.state.setAnimation(0, this.skinData.name == "reimu" ? "Run" : "Standby", true);
         this.state.addListener(this);
         e.setTimeScale(1.0f);
+        this.elfinData.loadAnimation();
     }
 
     public final CharacterStrings getCharacterString() {
@@ -188,6 +189,30 @@ public abstract class MusePlayer extends AbstractPlayer implements AnimationStat
     public void playDeathAnimation() {
         if(this.isGiveUp) {
             ReMuseMod.setDieAnimation(this);
+        }
+    }
+
+    @Override
+    public final void event(int i, Event event) {
+
+    }
+
+    @Override
+    public final void complete(int var1, int var2) {
+
+    }
+
+    @Override
+    public final void start(int i) {
+        if(this.state.getCurrent(i).getAnimation().getName() != "Die") {
+            this.resetAnimation();
+        }
+    }
+
+    @Override
+    public final void end(int i) {
+        if(this.state.getCurrent(i).getAnimation().getName() != "Die") {
+            this.resetAnimation();
         }
     }
 }

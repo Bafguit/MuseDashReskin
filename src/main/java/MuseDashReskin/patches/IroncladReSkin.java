@@ -241,32 +241,6 @@ public class IroncladReSkin extends MusePlayer {
         return Vampires.DESCRIPTIONS[1];
     }
 
-    @Override
-    public void event(int i, com.esotericsoftware.spine.Event event) {
-
-    }
-
-    @Override
-    public void complete(int i, int i1) {
-
-    }
-
-    @Override
-    public void start(int i) {
-        if(this.state.getCurrent(i).getAnimation().getName() != "Die") {
-            System.out.println("AnimationListener Started");
-            this.resetAnimation();
-        }
-    }
-
-    @Override
-    public void end(int i) {
-        if(this.state.getCurrent(i).getAnimation().getName() != "Die") {
-            System.out.println("AnimationListener Ended");
-            this.resetAnimation();
-        }
-    }
-
     static {
         characterStrings = CardCrawlGame.languagePack.getCharacterString(ReMuseMod.makeID("Rin"));
         NAMES = characterStrings.NAMES;
