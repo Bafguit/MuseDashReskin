@@ -2,6 +2,7 @@ package MuseDashReskin.patches;
 
 import MuseDashReskin.ReMuseMod;
 import MuseDashReskin.Skins.SkinInfo;
+import MuseDashReskin.bg.BgInfo;
 import MuseDashReskin.elfins.ElfinInfo;
 import MuseDashReskin.elfins.data.ElfinData;
 import MuseDashReskin.spine.SkeletonData;
@@ -33,16 +34,17 @@ import static com.megacrit.cardcrawl.characters.AbstractPlayer.PlayerClass.*;
 
 public class MainScreenAnimation implements PostInitializeSubscriber {
 
-    public static MuseDashReskin.spine.SkeletonRenderer sr = new MuseDashReskin.spine.SkeletonRenderer();
+    public static final MuseDashReskin.spine.SkeletonRenderer sr = new MuseDashReskin.spine.SkeletonRenderer();
 
-    public static SkinInfo skinInfo = new SkinInfo();
-    public static ElfinInfo elfinInfo = new ElfinInfo();
+    public static final SkinInfo skinInfo = new SkinInfo();
+    public static final ElfinInfo elfinInfo = new ElfinInfo();
+    public static final BgInfo bgInfo = new BgInfo();
 
-    private static Hitbox skinLeftHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
-    private static Hitbox skinRightHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
+    private static final Hitbox skinLeftHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
+    private static final Hitbox skinRightHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
 
-    private static Hitbox elfinLeftHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
-    private static Hitbox elfinRightHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
+    private static final Hitbox elfinLeftHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
+    private static final Hitbox elfinRightHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
 
     @Override
     public void receivePostInitialize() {

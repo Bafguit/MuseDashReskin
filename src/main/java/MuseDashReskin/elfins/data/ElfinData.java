@@ -52,7 +52,7 @@ public abstract class ElfinData {
             this.skeleton.updateWorldTransform();
             this.skeleton.setPosition(player.drawX + (player.flipHorizontal ? this.drawX : -this.drawX),
                     player.drawY + (player.flipVertical ? -this.drawY : this.drawY));
-            this.skeleton.setColor(player.tint.color);
+            this.skeleton.setColor(Color.WHITE);
             this.skeleton.setFlip(player.flipHorizontal, player.flipVertical);
             sb.end();
             CardCrawlGame.psb.begin();
@@ -68,7 +68,7 @@ public abstract class ElfinData {
             this.state.apply(this.skeleton);
             this.skeleton.updateWorldTransform();
             this.skeleton.setPosition(350 * Settings.scale, 900 * Settings.scale);
-            this.skeleton.setColor(new Color(1.0F, 1.0F, 1.0F, 1.0F));
+            this.skeleton.setColor(Color.WHITE);
             this.skeleton.setFlip(false, false);
             sb.end();
             CardCrawlGame.psb.begin();

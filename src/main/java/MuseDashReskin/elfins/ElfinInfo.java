@@ -48,7 +48,7 @@ public class ElfinInfo {
 
     protected void addElfinData(ElfinData data) {
         this.elfinData.add(data);
-        System.out.println("Elfin Data Added!   Elfin: " + data.name);
+        System.out.println("Elfin Data Added!   Elfin: " + data.nameKey);
     }
 
     public ElfinData getElfin() {

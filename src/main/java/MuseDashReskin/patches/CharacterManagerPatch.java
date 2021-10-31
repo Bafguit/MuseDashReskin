@@ -262,8 +262,7 @@ public class CharacterManagerPatch {
         }
 
         public static SpireReturn Postfix(MainMenuScreen _instance) {
-            BgInfo bgInfo = new BgInfo();
-            _instance.bg = bgInfo.getBg();
+            _instance.bg = MainScreenAnimation.bgInfo.getRandomBg();
             CardCrawlGame.sound.stop("WIND", _instance.windId);
             return SpireReturn.Continue();
         }

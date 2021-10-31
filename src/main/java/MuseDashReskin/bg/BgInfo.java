@@ -26,9 +26,16 @@ public class BgInfo {
 
     protected void addBgData(BgData data) {
         this.bgData.add(data);
+        System.out.println("BG Data Added!   BG: " + data.nameKey);
     }
 
     public BgData getBg() {
+        return this.bgData.get(this.index);
+    }
+
+    public BgData getRandomBg() {
+        Random random = new Random();
+        this.index = random.nextInt(this.bgData.size());
         return this.bgData.get(this.index);
     }
 }

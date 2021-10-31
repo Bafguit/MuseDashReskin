@@ -190,6 +190,7 @@ public abstract class MusePlayer extends AbstractPlayer implements AnimationStat
         if(this.isGiveUp) {
             ReMuseMod.setDieAnimation(this);
         }
+        this.skeleton.setColor(Color.WHITE);
     }
 
     @Override
