@@ -114,7 +114,7 @@ public abstract class MusePlayer extends AbstractPlayer implements AnimationStat
     public void resetAnimation() {
         this.skeleton.setToSetupPose();
         this.state.apply(this.skeleton);
-        System.out.println("Reset Animation : " + this.skeleton.getData().getName());
+        //System.out.println("Reset Animation : " + this.skeleton.getData().getName());
     }
 
     public void dispose() {
@@ -174,7 +174,7 @@ public abstract class MusePlayer extends AbstractPlayer implements AnimationStat
                 Random random = new Random();
                 int i = random.nextInt(this.skinData.voiceNumber) + 1;
                 String key = this.skinData.voiceName + "_HURT_" + i;
-                System.out.println("&&&&Play Hurt Sound : " + key);
+                //System.out.println("&&&&Play Hurt Sound : " + key);
                 ReMuseMod.museSound.play(key);
             }
         }

@@ -170,7 +170,7 @@ public class MainScreenAnimation implements PostInitializeSubscriber {
     public static void adjustElfinIndex(int i, MusePlayer p) {
         int temp = elfinInfo.index;
         elfinInfo.index = Math.min(Math.max(elfinInfo.index + i, 0), elfinInfo.elfinData.size() - 1);
-        System.out.println("Elfin Index: " + elfinInfo.index);
+        //System.out.println("Elfin Index: " + elfinInfo.index);
         if(temp != elfinInfo.index) {
             p.elfinData = elfinInfo.getElfin();
             try {

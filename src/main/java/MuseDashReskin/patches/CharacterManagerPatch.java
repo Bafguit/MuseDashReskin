@@ -231,7 +231,7 @@ public class CharacterManagerPatch {
         }
 
         public static SpireReturn Prefix(MainMenuScreen _instance) {
-            System.out.println("FFFFFFFAAAAAAAADDDDDDDDEEEEEEE");
+            //System.out.println("FFFFFFFAAAAAAAADDDDDDDDEEEEEEE");
             ReMuseMod.museSound.fadeSelect();
             return SpireReturn.Continue();
         }
